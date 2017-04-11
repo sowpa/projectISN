@@ -70,7 +70,7 @@ if(isset($_POST['g-recaptcha-response'])){
 
 										//envoie de l'email de confirmation
 										$header="MIME-Version: 1.0\r\n";
-										$header.='From:"Projet.com"<support@projet.com>'."\n";
+										$header.='From:"TeachAndLearn.com"<support@teachandlearn.com>'."\n";
 										$header.='Content-Type:text/html; charset="uft-8"'."\n";
 										$header.='Content-Transfer-Encoding: 8bit';
 										$content='

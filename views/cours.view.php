@@ -13,7 +13,7 @@
 		<div>
 			<p><?= nl2br($data['description_long']) ?></p>
 		</div>
-		<a href="inscriptioncourse.php?id=<?= $data['id'] ?>">S'inscrire au cours</a>
+		<a href="inscriptioncours.php?id=<?= $data['id'] ?>">S'inscrire au cours</a>
 	<footer><?php include_once("includes/footer.php"); ?></footer>
 </body>
 </html>

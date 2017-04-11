@@ -17,13 +17,18 @@ if(isset($_POST['formconnect'])){
 		$query->execute(array($mailconnect, $passwordconnect));
 
 		if($query->rowCount() == 1){
-			if(isset($_POST['rememberme'])){
-				my_setcookie('email', $mailconnect);
-				my_setcookie('password', $passwordconnect);
-			}
 			$userinfo = $query->fetch();
-			session_refresh($userinfo['id'], $bdd);		
-			header("Location: index.php");
+			if($userinfo['confirmed'] == 1){
+				if(isset($_POST['rememberme'])){
+					my_setcookie('email', $mailconnect);
+					my_setcookie('password', $passwordconnect);
+				}
+				session_refresh($userinfo['id'], $bdd);		
+				header("Location: index.php");
+			}
+			else{
+				$erreur = "Votre compte n'a pas été confirmé. Merci de vérifier vos mails.";
+			}
 		}
 		else{
 			$erreur = "Mauvais mail ou mauvais mot de passe.";
