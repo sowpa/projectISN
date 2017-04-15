@@ -16,7 +16,7 @@ Comment ça marche ?
 <div align="center">
 <h3> Qui sommes nous ? </h3>
 <p>
-<a href="CV/CVsamy.pdf"> Samy Zaouadi </a>
+Samy Zaouadi
 Billy Vang 
 Gabriel Colson
 </p>
