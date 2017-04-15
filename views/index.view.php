@@ -8,7 +8,7 @@
 <body>
 	<header><?php include_once('includes/header.php'); ?></header>
 	<div align="center">
-		<h1>Projet ISN</h1>		
+		<h1>Les derniers cours</h1>		
 	</div>
 	<div align="center">
 	<?php while($c = $cours->fetch()) {	?>
@@ -20,7 +20,10 @@
 		</div>	
 	<?php } ?>
 	</div>
-	<a href="allcourses.php">Voir tous les cours</a>
+	<a href="allcourses.php">Trouver un cours</a>
+	<div align="right">
+	<a href="createcourse.php">Créer un cours</a>
+	</div>
 	<footer><?php include_once("includes/footer.php"); ?></footer>
 </body>
 </html>
