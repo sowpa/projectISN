@@ -1,5 +1,13 @@
-	<a href="index.php">Accueil</a>
-	|
+<div class = "logo">
+	<a href="index.php">
+		<img src="ressources/logo.png">
+		</a>
+<div/>
+
+<div class = "séparateur">
+	<img src="ressources/séparateur.png">
+<div/>
+	
 <?php if($connect){ ?>
 <!-- si l'utilisateur est connecté -->
 	<a href="profil.php?id=<?php echo $_SESSION['id'];?>">mon profil</a>
