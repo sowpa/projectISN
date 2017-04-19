@@ -2,7 +2,7 @@
 	<a href="index.php">
 		<img src="ressources/logo.png">
 		</a>
-<div/>
+</div>
 
 <div class = "separateurhaut"><div/>
 	

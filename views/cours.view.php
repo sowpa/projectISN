@@ -6,14 +6,16 @@
 	<link rel="stylesheet" type="text/css" href="design/style.css">
 </head>
 <body>
-	<header><?php include_once('includes/header.php'); ?></header>
-	<div align="center">
-		<h2><?= $data['titre'] ?></h2>
-		<br><br><br>
-		<div>
-			<p><?= nl2br($data['description_long']) ?></p>
-		</div>
-		<a href="inscriptioncours.php?id=<?= $data['id'] ?>">S'inscrire au cours</a>
-	<footer><?php include_once("includes/footer.php"); ?></footer>
+	<div id = "main">
+		<header><?php include_once('includes/header.php'); ?></header>
+		<div align="center">
+			<h2><?= $data['titre'] ?></h2>
+			<br><br><br>
+			<div>
+				<p><?= nl2br($data['description_long']) ?></p>
+			</div>
+			<a href="inscriptioncours.php?id=<?= $data['id'] ?>">S'inscrire au cours</a>
+		<footer><?php include_once("includes/footer.php"); ?></footer>
+	</div>
 </body>
 </html>

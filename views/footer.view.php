@@ -5,7 +5,7 @@
 <?php } ?>
 
 
-<div class = "plus">
+<div class = "plus" id = "block">
 <h3><mark>En savoir plus<mark/> </h3>
 <p> 
 A propos <br/>
@@ -13,7 +13,9 @@ Comment ça marche ?
 </p>
 </div>
 
-<div class = "qui">
+<img src="ressources/footer_gauche">
+
+<div class = "qui" id = "block">
 <h3><mark>Qui sommes-nous ?<mark/> </h3>
 <p>
 <a href="CV/CV Samy">Samy Zaouadi</a>
@@ -22,7 +24,9 @@ Gabriel Colson
 </p>
 </div>
 
-<div class="contact">
+<img src="ressources/footer_droit">
+
+<div class="contact" id = "block">
 <h3><mark>Contact<mark/></h3>
 <p>
 Adresse pour courrier (?) <br/>
