@@ -4,9 +4,6 @@
 		</a>
 <div/>
 
-<div class = "séparateur">
-	<img src="ressources/séparateur.png">
-<div/>
 	
 <?php if($connect){ ?>
 <!-- si l'utilisateur est connecté -->
@@ -23,3 +20,7 @@
 	<a href="inscription.php">s'inscrire</a>
 
 <?php } ?>
+
+<div class = "séparateur">
+	<img src="ressources/séparateur.png">
+<div/>
