@@ -4,9 +4,7 @@
 		</a>
 <div/>
 
-<div class = "séparateur">
-	<img src="ressources/séparateur.png">
-<div/>
+<div class = "separateurhaut"><div/>
 	
 <?php if($connect){ ?>
 <!-- si l'utilisateur est connecté -->

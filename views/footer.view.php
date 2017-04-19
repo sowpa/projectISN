@@ -5,7 +5,7 @@
 <?php } ?>
 
 
-<div>
+<div class = "plus">
 <h3><mark>En savoir plus<mark/> </h3>
 <p> 
 A propos <br/>
@@ -13,7 +13,7 @@ Comment ça marche ?
 </p>
 </div>
 
-<div align="center">
+<div class = "qui">
 <h3><mark>Qui sommes-nous ?<mark/> </h3>
 <p>
 <a href="CV/CV Samy">Samy Zaouadi</a>
@@ -22,7 +22,7 @@ Gabriel Colson
 </p>
 </div>
 
-<div align="right">
+<div class="contact">
 <h3><mark>Contact<mark/></h3>
 <p>
 Adresse pour courrier (?) <br/>
