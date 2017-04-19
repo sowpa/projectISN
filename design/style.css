@@ -1,14 +1,31 @@
+
+
 h1 {
+	width: 50%;
    color: white;
    background-color: navy;
    border-width: 12px; 
-   border-radius: 10px;
-
+   border-radius: 20px;
+   font-family: roboto condensed, 45pt; 
+   background: linear-gradient(90deg,#2c2c2c, #47449c);
 }
+
+
+mark {
+	background-color: purple;
+	color: white;
+}
+
 
 body{
 	color : white;
-	background-color: #DCDCDC;
+	background-color: #e9e8e8;
+}
+
+.logo {
+	background: linear-gradient(90deg,#2c2c2c, #47449c);
+	background-size: 
+}
 }
 
 .séparateur {
@@ -22,6 +39,16 @@ h6 {
 
 div {
 	color: white;
+}
+
+.box {
+	background: linear-gradient(90deg,#47449c, #2c2c2c) /* ou background-color*/
+	width: 100%;
+	border-radius: 30px;
+	margin: 30px;
+	padding: 10px;
+	shadow: 
+	
 }
 
 

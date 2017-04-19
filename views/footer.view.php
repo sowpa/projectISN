@@ -6,7 +6,7 @@
 
 
 <div>
-<h3> En savoir plus </h3>
+<h3><mark>En savoir plus<mark/> </h3>
 <p> 
 A propos <br/>
 Comment ça marche ?
@@ -14,7 +14,7 @@ Comment ça marche ?
 </div>
 
 <div align="center">
-<h3> Qui sommes nous ? </h3>
+<h3><mark>Qui sommes-nous ?<mark/> </h3>
 <p>
 <a href="CV/CV Samy">Samy Zaouadi</a>
 Billy Vang 
@@ -23,7 +23,7 @@ Gabriel Colson
 </div>
 
 <div align="right">
-<h3> Contact </h3>
+<h3><mark>Contact<mark/></h3>
 <p>
 Adresse pour courrier (?) <br/>
 Numéro de téléphone (?)
