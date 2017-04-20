@@ -1,15 +1,14 @@
 
-
 body, html {
 	height: 100%;
 }
 
 body {
-	
+
 }
 
 #main {
-  /*max-width: 1280px;*/
+  max-width: auto;
   min-height: 100%;
   margin: 0 auto;
   position: relative;
@@ -32,8 +31,7 @@ mark {
 }
 
 header {
-	background: linear-gradient(90deg,#2e2d76, #784872, #f37650);
-	background-size: 
+	background: linear-gradient(180deg,#372d77, #874e70, #ca665e);
 	left: 0;
 	margin-top: -35px;
 	padding-left: 20px;
@@ -58,21 +56,46 @@ body{
 	margin-top 0px;
 }
 
-h6 {
+h6, div {
 	color: white;
 }
 
-div {
-	color: white;
+
+
+.boutonun {
+    color: white;
+    background: linear-gradient(180deg,#47449c, #2c2c2c);
+    border-radius: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin-right: 100px;
+    margin-left: 31%;
+    margin-top: 400px;
+}
+
+.boutondeux {
+    color: white;
+    background: linear-gradient(180deg,#47449c, #2c2c2c);
+    border-radius: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 50%;
+    margin-left: 100px;
 }
 
 .box {
-	background: linear-gradient(90deg,#47449c, #2c2c2c) /* ou background-color*/
+	background: linear-gradient(90deg,#47449c, #2c2c2c) 
 	width: 100%;
 	border-radius: 30px;
-	margin: 30px;
+	
 	padding: 10px;
-	shadow: 
+	
 	
 }
 

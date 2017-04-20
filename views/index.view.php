@@ -21,9 +21,10 @@
 			</div>	
 		<?php } ?>
 		</div>
-		<a href="allcourses.php">Trouver un cours</a>
-		<div align="right">
-		<a href="createcourse.php">Créer un cours</a>
+			<div class="boutonun">
+				<a href="allcourses.php">Trouver un cours</a></div>
+			<div class="boutondeux">
+				<a href="createcourse.php">Créer un cours</a></div>
 		</div>
 		<footer><?php include_once("includes/footer.php"); ?></footer>
 	</div>
