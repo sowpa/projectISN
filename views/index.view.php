@@ -6,24 +6,26 @@
 	<link rel="stylesheet" type="text/css" href="design/style.css">
 </head>
 <body>
-	<header><?php include_once('includes/header.php'); ?></header>
-	<div align="center">
-		<h1>Les derniers cours</h1>		
+	<div id = "main">
+		<header><?php include_once('includes/header.php'); ?></header>
+		<div align="center">
+			<h1>Les derniers cours</h1>		
+		</div>
+		<div align="center">
+		<?php while($c = $cours->fetch()) {	?>
+			<div class="cours-display">
+				<a href="cours.php?id=<?= $c['c_id']?>" >
+					<h6><?= $c['titre'] ?> - <?= $c['pseudo']?></h6>
+					<div><?= $c['description'] ?></div>
+				</a>
+			</div>	
+		<?php } ?>
+		</div>
+		<a href="allcourses.php">Trouver un cours</a>
+		<div align="right">
+		<a href="createcourse.php">Créer un cours</a>
+		</div>
+		<footer><?php include_once("includes/footer.php"); ?></footer>
 	</div>
-	<div align="center">
-	<?php while($c = $cours->fetch()) {	?>
-		<div class="cours-display">
-			<a href="cours.php?id=<?= $c['c_id']?>" >
-				<h6><?= $c['titre'] ?> - <?= $c['pseudo']?></h6>
-				<div><?= $c['description'] ?></div>
-			</a>
-		</div>	
-	<?php } ?>
-	</div>
-	<a href="allcourses.php">Trouver un cours</a>
-	<div align="right">
-	<a href="createcourse.php">Créer un cours</a>
-	</div>
-	<footer><?php include_once("includes/footer.php"); ?></footer>
 </body>
 </html>
