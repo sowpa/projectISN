@@ -1,19 +1,50 @@
+body {
+	height: 2000px;
+}
+
+
+
 h1 {
+	width: 50%;
    color: white;
    background-color: navy;
    border-width: 12px; 
-   border-radius: 10px;
+   border-radius: 20px;
+   font-family: roboto condensed, 45pt; 
+   background: linear-gradient(360deg,#2c2c2c, #47449c);
+}
 
+
+mark {
+	background-color: navy;
+	color: white;
+}
+
+header {
+	background: linear-gradient(90deg,#2e2d76, #784872, #f37650);
+	background-size: 
+	left: 0;
+	margin-top: -35px;
+	padding-left: 20px;
+  top: 1000px;
+  height: 125px;
+  width: 100%;
+  margin-bottom: 0px;
+  margin-right: -10px;
+  margin-left: -10px;
 }
 
 body{
 	color : white;
-	background-color: #DCDCDC;
+	background-color: #e9e8e8;
 }
 
-.séparateur {
+
+
+.separateurhaut {
 	width: 100%;
-	height: 200px
+	height: 200px;
+	margin-top 0px;
 }
 
 h6 {
@@ -22,6 +53,16 @@ h6 {
 
 div {
 	color: white;
+}
+
+.box {
+	background: linear-gradient(90deg,#47449c, #2c2c2c) /* ou background-color*/
+	width: 100%;
+	border-radius: 30px;
+	margin: 30px;
+	padding: 10px;
+	shadow: 
+	
 }
 
 
@@ -78,4 +119,16 @@ a {
       max-width:700px;
       padding:10px 30px;
    }
+}
+
+
+/*footer*/ 
+
+footer {
+	background-color: rgb(44, 44, 44);
+	position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
 }

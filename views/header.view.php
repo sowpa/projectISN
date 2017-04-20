@@ -4,6 +4,10 @@
 		</a>
 <div/>
 
+<<<<<<< HEAD
+=======
+<div class = "separateurhaut"><div/>
+>>>>>>> origin/master
 	
 <?php if($connect){ ?>
 <!-- si l'utilisateur est connecté -->
