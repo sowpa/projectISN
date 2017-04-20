@@ -4,9 +4,6 @@
 </div>
 <?php } ?>
 
-<div class = "séparateur">
-	<img src="ressources/séparateur.png">
-<div/>
 
 <div class = "plus" id = "block">
 <h3><mark>En savoir plus<mark/> </h3>
