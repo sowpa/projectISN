@@ -4,16 +4,12 @@
 		</a>
 </div>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 <div class = "separateurhaut"><div/>
->>>>>>> origin/master
-=======
+
 <div class = "séparateur">
 	<img src="ressources/séparateur.png">
 <div/>
->>>>>>> parent of 675f787... séparateurs
+
 	
 <?php if($connect){ ?>
 <!-- si l'utilisateur est connecté -->

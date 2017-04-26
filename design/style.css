@@ -60,9 +60,16 @@ h6, div {
 	color: white;
 }
 
+a
+{
+color: white;
+text-decoration: none;
+}
+
 
 
 .boutonun {
+    font-family: 'roboto';
     color: white;
     background: linear-gradient(180deg,#47449c, #2c2c2c);
     border-radius: 10px;
@@ -76,7 +83,11 @@ h6, div {
     margin-top: 400px;
 }
 
+
+
+
 .boutondeux {
+    font-family: 'roboto';
     color: white;
     background: linear-gradient(180deg,#47449c, #2c2c2c);
     border-radius: 10px;
@@ -176,4 +187,5 @@ footer {
   width: 30%;
 
 }
+
 
