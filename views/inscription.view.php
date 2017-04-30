@@ -12,60 +12,54 @@
 		<div align="center">
 			<h2>Inscription</h2>
 			<br><br><br>
-			<form class="form-horizontal col-lg-6">
-  <div class="form-group">
-    <legend>Insription</legend>
-  </div>
-  <div class="row">
-    <div class="form-group">
-      <label for="Pseudo" class="col-lg-2 control-label">Votre pseudo </label>
-      <div class="col-lg-10">
-        <input  type="text" name="pseudo" class="form-control" id="pseudo" placeholder="Votre pseudo" value="<?php if(isset($pseudo)) echo $pseudo;?>">
-      </div>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="form-group">
-      <label for="mail" class="col-lg-2 control-label">Adresse mail </label>
-      <div class="col-lg-10">
-        <input type="email" class="form-control" id="mail" placeholder="Votre mail" value="<?php if(isset($mail)) echo $mail;?>">
-      </div>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="form-group">
-    <label for="select" class="col-lg-2 control-label">Confirmation du mail: </label>
-      <div class="col-lg-10">
-        <input type="email" class="form-control" id="mail2" placeholder="Votre mail" value="<?php if(isset($mail)) echo $mail;?>">
-      </div>
-    </div>
-  </div>
-
-    <div class="row">
-    <div class="form-group">
-      <label for="password" class="col-lg-2 control-label">Mot de passe </label>
-      <div class="col-lg-10">
-        <input type="password" class="form-control" id="mdp" placeholder="Votre mot de passe">
-      </div>
-    </div>
-  </div>
-
-    <div class="row">
-    <div class="form-group">
-      <label for="password2" class="col-lg-2 control-label">Confirmation mot de passe </label>
-      <div class="col-lg-10">
-        <input type="password" class="form-control" id="mdp2" placeholder="Confirmez votre saisie...">
-      </div>
-    </div>
-  </div>  
-
-  <br>
-  <div class="g-recaptcha" data-sitekey="6LfxDgwUAAAAAM9ctoroK6t0u7BsofOqPKe5Pe2z"></div>
-  <br>
-  <input type="submit" value="s'inscrire" name="forminscription">
-</form>
+			<form method="POST" action="">
+        <table>
+          <tr>
+            <td align="right">
+              <label for="pseudo">Pseudo :</label>
+            </td>
+            <td>
+              <input id="pseudo" type="text" name="pseudo" placeholder="Votre pseudo" value="<?php if(isset($pseudo)) echo $pseudo;?>">
+            </td>
+          </tr>
+          <tr>
+            <td align="right">
+              <label for="mail">Mail :</label>
+            </td>
+            <td>
+              <input id="mail" type="email" name="mail" placeholder="Votre mail" value="<?php if(isset($mail)) echo $mail;?>">
+            </td>
+          </tr>
+          <tr>
+            <td align="right">
+              <label for="mail2">Confirmation du mail :</label>
+            </td>
+            <td>
+              <input id="mail2" type="email" name="mail2" placeholder="Confirmation de votre mail" value="<?php if(isset($mail2)) echo $mail2;?>">
+            </td>       
+          </tr>
+          <tr>
+            <td align="right">
+              <label for="password">Mot de passe :</label>
+            </td>
+            <td>
+              <input id="password" type="password" name="password" placeholder="Votre mot de passe">
+            </td>       
+          </tr>
+          <tr>
+            <td align="right">
+              <label for="password2">Confirmation du mot de passe :</label>
+            </td>
+            <td>
+              <input id="password2" type="password" name="password2" placeholder="Confirmation de votre mdp">
+            </td>       
+          </tr>
+        </table>
+        <br>
+        <div class="g-recaptcha" data-sitekey="6LfxDgwUAAAAAM9ctoroK6t0u7BsofOqPKe5Pe2z"></div>
+        <br>
+        <input type="submit" value="s'inscrire" name="forminscription">
+      </form>
 			<?php
 				if (isset($erreur)) {
 					echo $erreur;
