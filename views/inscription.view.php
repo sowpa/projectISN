@@ -10,7 +10,7 @@
 	<div id = "main">
 		<header><?php include_once('includes/header.php'); ?></header>
 		<div align="center">
-			<h2>Inscription</h2>
+			<h2 class="titreins">Inscription</h2>
 			<br><br><br>
 			<form method="POST" action="">
         <table>
