@@ -108,7 +108,8 @@ body{
     text-align: center;
     display: inline-block;
     font-size: 30px;
-
+    border: 3px black solid;
+    box-shadow: 3px 3px 8px black;
 }
 
 
