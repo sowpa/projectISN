@@ -4,11 +4,13 @@
 		</a>
 </div>
 
-<div class = "separateurhaut"><div/>
 
+<<<<<<< HEAD
 
 
 	
+=======
+>>>>>>> 67c0ce969e3ef9be53f84b8fc01e9c30d95bcf7f
 <?php if($connect){ ?>
 <!-- si l'utilisateur est connecté -->
 	<a href="profil.php?id=<?php echo $_SESSION['id'];?>">mon profil</a>
