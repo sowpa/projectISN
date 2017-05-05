@@ -1,8 +1,12 @@
 @font-face {
+    font-family: 'Roboto-Condensed';
+    src: url('Roboto-Condensed.ttf');
+}
+
+@font-face {
     font-family: 'Roboto-Light';
     src: url('Roboto-Light.ttf');
 }
-
 
 body, html {
 	height: 100%;
@@ -73,19 +77,9 @@ body{
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    box-shadow: 3px 3px 8px black;
-    border: 3px rgb(44, 44, 44) solid;
     
-}
-
-.btnins{
-    font-family: 'Roboto-Light';
-    color: white;
-    background: linear-gradient(180deg,#47449c, #2c2c2c);
-    border-radius: 10px;
-    text-align: center;
-    display: inline-block;
-    font-size: 30px;
+    
+    
 }
 
 .form-horizontal{
@@ -96,6 +90,29 @@ body{
 
 
 }
+
+.form-group{
+    font-family: 'Roboto-Condensed';
+    color: rgb(44, 44, 44);
+    font-size : 20px;
+    padding : 5px 5px;
+}
+
+.
+
+.btnins{
+    font-family: 'Roboto-Light';
+    color: white;
+    background: linear-gradient(180deg,#47449c, #2c2c2c);
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    border: 3px black solid;
+    box-shadow: 3px 3px 8px black;
+}
+
+
 
 /* FIN ESPACE INSCRIPTION */
 
