@@ -15,6 +15,7 @@
 			<form method="POST" action="">
         <form class="form-horizontal">
           <fieldset>
+
           <div class="form-group">
             <label class="col-md-4 control-label" for="pseudo">Pseudo :</label>
             <div class="col-md-4">
@@ -54,8 +55,9 @@
         <br>
         <div class="g-recaptcha" data-sitekey="6LfxDgwUAAAAAM9ctoroK6t0u7BsofOqPKe5Pe2z"></div>
         <br>
-        
-        <input type="submit" value="s'inscrire" name="forminscription">
+
+        <input class="btn btn-default" type="submit" value="S'inscrire" name="forminscription">
+        </fieldset>
       </form>
 			<?php
 				if (isset($erreur)) {
