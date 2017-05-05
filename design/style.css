@@ -59,7 +59,8 @@ body{
 /* ESPACE INSCRIPTION */
 
 .titreins{
-    font-family: 'typos/Roboto-Light';
+    font-family: 'Roboto-Light';
+    src: url('typos/Roboto-Light.ttf');
     color: white;
     background-color: rgb(44, 44, 44);
     border-radius: 5px;
@@ -72,7 +73,8 @@ body{
 }
 
 .btnins{
-    font-family: 'typos/Roboto-Light';
+    font-family: 'Roboto-Light';
+    src: url('typos/Roboto-Light.ttf');
     color: white;
     background: linear-gradient(180deg,#47449c, #2c2c2c);
     border-radius: 10px;
@@ -82,7 +84,7 @@ body{
 }
 
 .form-horizontal{
-    background-color: #e6ba6e
+    background-color: #e6ba6e;
 
 
 }
@@ -102,7 +104,8 @@ text-decoration: none;
 
 
 .boutonun {
-    font-family: 'typos/Roboto-Light';
+    font-family: 'Roboto-Light';
+    src: url('typos/Roboto-Light.ttf');
     color: white;
     background: linear-gradient(180deg,#47449c, #2c2c2c);
     border-radius: 10px;
@@ -120,7 +123,8 @@ text-decoration: none;
 
 
 .boutondeux {
-    font-family: 'typos/Roboto-Light';
+    font-family: 'Roboto-Light';
+    src: url('typos/Roboto-Light.ttf');
     color: white;
     background: linear-gradient(180deg,#47449c, #2c2c2c);
     border-radius: 10px;
