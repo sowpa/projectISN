@@ -71,6 +71,19 @@ body{
     
 }
 
+.btnins{
+    font-family: 'roboto';
+    color: white;
+    background: linear-gradient(180deg,#47449c, #2c2c2c);
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+
+
+
+}
+
+
 h6, div {
 	color: white;
 }
