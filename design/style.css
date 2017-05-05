@@ -59,7 +59,7 @@ body{
 /* ESPACE INSCRIPTION */
 
 .titreins{
-    font-family: 'roboto';
+    font-family: 'typos/Roboto-Light';
     color: white;
     background-color: rgb(44, 44, 44);
     border-radius: 5px;
@@ -72,18 +72,22 @@ body{
 }
 
 .btnins{
-    font-family: 'roboto';
+    font-family: 'typos/Roboto-Light';
     color: white;
     background: linear-gradient(180deg,#47449c, #2c2c2c);
     border-radius: 10px;
     text-align: center;
     display: inline-block;
     font-size: 30px;
+}
 
+.form-horizontal{
+    background-color: #e6ba6e
 
 
 }
 
+/* FIN ESPACE INSCRIPTION */
 
 h6, div {
 	color: white;
@@ -98,7 +102,7 @@ text-decoration: none;
 
 
 .boutonun {
-    font-family: 'roboto';
+    font-family: 'typos/Roboto-Light';
     color: white;
     background: linear-gradient(180deg,#47449c, #2c2c2c);
     border-radius: 10px;
@@ -116,7 +120,7 @@ text-decoration: none;
 
 
 .boutondeux {
-    font-family: 'roboto';
+    font-family: 'typos/Roboto-Light';
     color: white;
     background: linear-gradient(180deg,#47449c, #2c2c2c);
     border-radius: 10px;
