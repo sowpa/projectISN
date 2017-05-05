@@ -56,7 +56,7 @@
         <div class="g-recaptcha" data-sitekey="6LfxDgwUAAAAAM9ctoroK6t0u7BsofOqPKe5Pe2z"></div>
         <br>
 
-        <input class="btn btn-default" type="submit" value="S'inscrire" name="forminscription">
+        <input class="btnins" type="submit" value="S'inscrire" name="forminscription">
         </fieldset>
       </form>
 			<?php
