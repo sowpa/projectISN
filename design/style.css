@@ -73,7 +73,7 @@ body{
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    box-shadow: 3px 3px 0px black;
+    box-shadow: 3px 3px 8px black;
     border: 3px rgb(44, 44, 44) solid;
     
 }
@@ -92,7 +92,7 @@ body{
     background-color: #e6ba6e;
     margin-right: 30%;
     margin-left: 30%;
-    box-shadow: 5px 5px 0px black;
+    box-shadow: 5px 5px 10px black;
 
 
 }
