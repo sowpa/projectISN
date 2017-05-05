@@ -12,9 +12,8 @@
 		<div align="center">
 			<h2 class="titreins">Inscription</h2>
 			<br><br><br>
-			<form method="POST" action="">
-        <form class="form-horizontal">
-          <fieldset>
+			<form class="form-horizontal" method="POST" action="">
+        <fieldset>
 
           <div class="form-group">
             <label class="col-md-4 control-label" for="pseudo">Pseudo :</label>
