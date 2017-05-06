@@ -110,8 +110,13 @@ body{
     text-align: center;
     display: inline-block;
     font-size: 30px;
+<<<<<<< HEAD
     
 
+=======
+    border: 3px black solid;
+    box-shadow: 3px 3px 8px black;
+>>>>>>> origin/master
 }
 
 
