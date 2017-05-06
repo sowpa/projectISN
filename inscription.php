@@ -122,7 +122,7 @@ if(isset($_POST['g-recaptcha-response'])){
 			}
 		}
 	} else {
-	    $errors = "Merci de prouver que vous n'etes pas un robot.";
+	    $erreur = "Merci de prouver que vous n'etes pas un robot.";
 	}
 }
 
