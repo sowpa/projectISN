@@ -111,13 +111,10 @@ body{
     text-align: center;
     display: inline-block;
     font-size: 30px;
-<<<<<<< HEAD
-    
 
-=======
     border: 3px black solid;
     box-shadow: 3px 3px 8px black;
->>>>>>> origin/master
+
 }
 
 
@@ -146,6 +143,7 @@ body{
     margin-left: 30%;
     box-shadow: 5px 5px 10px black;
 
+
 }
 
 .btnconx{
@@ -163,6 +161,42 @@ body{
 /* FIN ESPACE CONNEXION */
 
 
+/* Espace création de cours */
+
+.titrecrea{
+    font-family: 'Roboto-Light';
+    color: white;
+    background-color: rgb(44, 44, 44);
+    border-radius: 5px;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    
+}
+
+.form-crea{
+    background-color: #e6ba6e;
+    margin-right: 30%;
+    margin-left: 30%;
+    box-shadow: 5px 5px 10px black;
+
+}
+
+.btncrea{
+    font-family: 'Roboto-Light';
+    color: white;
+    background: linear-gradient(180deg,#47449c, #2c2c2c);
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    
+
+}
+
+/* FIN ESPACE CREATION DE COURS */
 
 h6, div {
 	color: white;

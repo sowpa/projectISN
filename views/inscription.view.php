@@ -16,14 +16,14 @@
         <fieldset>
 
           <div class="form-group">
-            <label class="col-md-4 control-label" for="pseudo">Pseudo :</label>
+            <label class="col-md-4 control-label" for="pseudo">Pseudo</label>
             <div class="col-md-4">
             <input id="pseudo" type="text" name="pseudo" placeholder="Votre pseudo..." value="<?php if(isset($pseudo)) echo $pseudo;?>">
             </div>
           </div>
 
           <div class="form-group">
-            <label class="col-md-4 control-label" for="mail">Mail : </label>
+            <label class="col-md-4 control-label" for="mail">Mail</label>
             <div class="col-md-4">
             <input id="mail" type="email" name="mail" placeholder="Votre mail..." value="<?php if(isset($mail)) echo $mail;?>">
             </div>
@@ -31,21 +31,21 @@
 
 
           <div class="form-group">
-            <label class="col-md-4 control-label" for="mail2">Confirmation :</label>
+            <label class="col-md-4 control-label" for="mail2">Confirmation</label>
             <div class="col-md-4">
             <input id="mail2" type="email" name="mail2" placeholder="Confirmation de votre mail..." value="<?php if(isset($mail2)) echo $mail2;?>">
             </div>       
           </div>
 
           <div class="form-group">
-            <label class="col-md-4 control-label" for="password">Mot de passe : </label>
+            <label class="col-md-4 control-label" for="password">Mot de passe</label>
             <div class="col-md-4">
             <input id="password" type="password" name="password" placeholder="Votre mot de passe...">
             </div>       
           </div>
 
           <div class="form-group">
-            <label class="col-md-4 control-label" for="password2">Confirmation : </label>
+            <label class="col-md-4 control-label" for="password2">Confirmation</label>
             <div class="col-md-4">
             <input id="password2" type="password" name="password2" placeholder="Confirmation de votre mot de passe...">
             </div>       

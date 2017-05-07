@@ -9,9 +9,11 @@
 	<div id = "main">
 		<header><?php include_once('includes/header.php'); ?></header>
 		<div align="center">
-			<h2>Création de cours</h2>
+			<h2 class="titrecrea">Création de cours</h2>
 			<br><br><br>
 			<form name="creation" method="POST" action="">
+			<div class="form-crea">
+			<br>
 				<label for="titre">Le titre de votre cours : </label>
 				<input type="text" name="titre" id="titre" placeholder="Exemple : Echec et math" /><br /><br />
 				<label for="ville">La ville ou vous donnerez votre cours : </label>
@@ -21,7 +23,10 @@
 				<label for="description_long">Une longue description de votre cours : </label>
 				<textarea rows="5" name="description_long" id="description_long" cols="24"></textarea><br /><br />
 				
-				<input type="submit" name="submit" value="Créer ce cours" />
+			</div>
+
+			<br><br><br>
+				<input class="btncrea" type="submit" name="submit" value="Créer ce cours" />
 			</form>
 			<?php
 				if (isset($erreur)) {
