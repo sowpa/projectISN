@@ -1,7 +1,14 @@
-<div class = "logo">
-	<a href="index.php">
-		<img src="ressources/logo.png">
-		</a>
+<link rel="stylesheet" type="text/css" href="header.css">
+
+
+<div class = "container">
+		<div class = "pull-left">
+			<div class = "logo">
+				<a href="index.php">
+					<img src="ressources/logo.png">
+				</a>
+			</div>
+		</div>
 </div>
 
 

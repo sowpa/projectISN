@@ -3,8 +3,9 @@
 <head>
 	<title>Projet ISN</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="design/style.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min">
+	<link rel="stylesheet" type="text/css" href="design/style.css">
+	
 
 
 </head>
