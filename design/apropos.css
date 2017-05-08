@@ -1,0 +1,32 @@
+/* a propos */
+
+.titreapropos{
+    font-family: 'Roboto-Light';
+    color: white;
+    background-color: rgb(44, 44, 44);
+    border-radius: 5px;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+
+}
+
+.description{
+    background-color: #e6ba6e;
+    margin-right: 20%;
+    margin-left: 20%;
+    box-shadow: 5px 5px 10px black;
+
+}
+
+.devise{
+	font-family: 'CaviarDreams_Bold';
+
+}
+
+.descriptiongen{
+	font-family: 'CaviarDreams_Bold';
+
+}
