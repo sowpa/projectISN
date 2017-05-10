@@ -23,6 +23,23 @@
 			de spécialité ISN (Informatique et Science du Numérique)
 			<strong> A COMPLETER +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 			+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</strong>
+			</p>
+			</div>
+
+			<div class="interv1">
+			<p align="left" class="citation1"> partie de la citation qui s'agrandira automatiquement quand on la remplira</p>
+			<p align="right" class="photo1"> PHOTO </p>
+			</div>
+
+			<div class="interv2">
+			<p align="right" class="citation2"> partie de la citation qui s'agrandira automatiquement quand on la remplira</p>
+			<p align="left" class="photo2"> PHOTO </p>
+			</div>
+		</div>
+	<footer><?php include_once("includes/footer.php"); ?></footer>
+</body>
+</html>
+
 
 
 

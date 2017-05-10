@@ -30,3 +30,38 @@
 	font-family: 'CaviarDreams_Bold';
 
 }
+
+.interv1{
+    background-color: white;
+    color : rgb(44, 44, 44);
+    margin-right: 10%;
+    margin-left: 10%;
+    box-shadow: 5px 5px 10px black;
+    margin-top : 5%;
+}
+
+.citation1{
+    padding-left: 20px;
+}
+
+.photo1{
+    padding-right: 20px;
+}
+
+.interv2{
+    background-color: white;
+    color : rgb(44, 44, 44);
+    margin-right: 10%;
+    margin-left: 10%;
+    box-shadow: 5px 5px 10px black;
+    margin-top : 5%;
+}
+
+.citation2{
+    padding-right: 20px;
+}
+
+
+.photo2{
+    padding-left: 20px;
+}
