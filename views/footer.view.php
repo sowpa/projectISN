@@ -10,7 +10,7 @@
 <p> 
 <a href="apropos.php">A propos</a> 
 <br/>
-Comment ça marche ?
+<a href="ccm.php">Comment ça marche ?</a>
 </p>
 </div>
 
