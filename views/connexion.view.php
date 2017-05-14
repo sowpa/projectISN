@@ -4,6 +4,7 @@
 	<title>Projet ISN</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="design/style.css">
+	<link rel="stylesheet" type="text/css" href="design/connexion.css">
 </head>
 <body>
 	<div id = "main">
