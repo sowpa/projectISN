@@ -29,9 +29,13 @@
     padding : 5px 5px;
 }
 
+.form-controlinput-md{
+    border : 2px #191970 outset;
+    font-family: 'CaviarDreams_Bold';
+}
 .
 
-.btnins{
+.btn{
     font-family: 'Roboto-Light';
     color: white;
     background: linear-gradient(180deg,#47449c, #2c2c2c);
@@ -39,8 +43,8 @@
     text-align: center;
     display: inline-block;
     font-size: 30px;
-
-    border: 3px black solid;
+    
+    border: 1px black;
     box-shadow: 3px 3px 8px black;
 
 }

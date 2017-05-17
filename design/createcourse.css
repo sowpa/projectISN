@@ -21,6 +21,18 @@
 
 }
 
+.form-group{
+    font-family: 'Roboto-Condensed';
+    color: rgb(44, 44, 44);
+    font-size : 20px;
+    padding : 5px 5px;
+}
+
+.form-controlinput-md{
+    border : 2px #191970 outset;
+    font-family: 'CaviarDreams_Bold';
+}
+
 .btncrea{
     font-family: 'Roboto-Light';
     color: white;
@@ -30,7 +42,8 @@
     display: inline-block;
     font-size: 30px;
     
-
+    border: 1px black;
+    box-shadow: 3px 3px 8px black;
 }
 
 /* FIN ESPACE CREATION DE COURS */

@@ -24,7 +24,8 @@ body, html {
 }
 
 p {
-  font-family : 'Roboto-Light';
+  font-family : 'CaviarDreams_Bold';
+  color : rgb(44,44,44);
 }
 
 
@@ -63,8 +64,14 @@ body{
 
 a
 {
-color: white;
-text-decoration: none;
+  color: white;
+  text-decoration: none;
+  font-family : 'CaviarDreams_Bold'
+}
+
+a:hover{
+  color: #DAA520;
+
 }
 
 
@@ -125,11 +132,6 @@ text-decoration: none;
 .cours-display a:hover {
    transition: all 2s ease;
 }
-
-a {
-   text-decoration: none;
-}
-
 
 .cookie-alert {
    position: fixed;

@@ -1,12 +1,9 @@
 .logo{
-  background: linear-gradient(180deg,#372d77, #874e70, #ca665e)
+  background: linear-gradient(180deg,#372d77, #874e70, #ca665e);
   margin-left: -100px;
 
 }
 
-image {
-
-}
 
 header {
 	background: linear-gradient(180deg,#372d77, #874e70, #ca665e);
