@@ -1,4 +1,3 @@
-<link rel="stylesheet" type="text/css" href="design/style.css">
 <link rel="stylesheet" type="text/css" href="design/header.css">
 
 
@@ -8,16 +7,15 @@
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target ="#navbar-collapse" >
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
-			
 			</button>
 
 			<a href="index.php"><href= "class=navbar-brand"><img src="ressources/logo.png"></a>
-		</div>
-		<div class="collapse navbar-collapse" id="navbar-collapse">
+		
+		<!--<div class="collapse navbar-collapse" id="navbar-collapse">
 			<ul class="nav navbar-nav">
 				<li><a href="index.php">Accueil</a>
 				<li><a href="connexion.php ">Se connecter</a>
-			</ul>
+			</ul>-->
 		</div>
 	</div>
 </nav>
@@ -33,8 +31,9 @@
 
 <?php }	else{ ?>
 <!-- si l'utilisateur n'est pas connecté -->
-	<a href="connexion.php">se connecter</a>
-	|
-	<a href="inscription.php">s'inscrire</a>
+	<ul class="nav navbar-nav">
+		<li><a href="connexion.php">se connecter</a>
+		<li><a href="inscription.php">s'inscrire</a>
+	</ul>
 
 <?php } ?>
