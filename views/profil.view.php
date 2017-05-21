@@ -19,6 +19,8 @@
 			<br /><br />
 			<?php if($mine){ ?>
 			<a href="editionprofil.php">Editer mon profil</a>
+			<br>
+			<a href="mescours.php">Mes cours</a>
 			<?php } ?>
 		</div>
 

@@ -1,0 +1,67 @@
+/* a propos */
+
+.titreapropos{
+    font-family: 'Roboto-Light';
+    color: white;
+    background-color: rgb(44, 44, 44);
+    border-radius: 5px;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+
+}
+
+.description{
+    background-color: #e6ba6e;
+    margin-right: 20%;
+    margin-left: 20%;
+    box-shadow: 5px 5px 10px black;
+
+}
+
+.devise{
+	font-family: 'CaviarDreams_Bold';
+
+}
+
+.descriptiongen{
+	font-family: 'CaviarDreams_Bold';
+
+}
+
+.interv1{
+    background-color: white;
+    color : rgb(44, 44, 44);
+    margin-right: 10%;
+    margin-left: 10%;
+    box-shadow: 5px 5px 10px black;
+    margin-top : 5%;
+}
+
+.citation1{
+    padding-left: 20px;
+}
+
+.photo1{
+    padding-right: 20px;
+}
+
+.interv2{
+    background-color: white;
+    color : rgb(44, 44, 44);
+    margin-right: 10%;
+    margin-left: 10%;
+    box-shadow: 5px 5px 10px black;
+    margin-top : 5%;
+}
+
+.citation2{
+    padding-right: 20px;
+}
+
+
+.photo2{
+    padding-left: 20px;
+}

@@ -1,4 +1,5 @@
-<link rel="stylesheet" type="text/css" href="header.css">
+<link rel="stylesheet" type="text/css" href="design/style.css">
+<link rel="stylesheet" type="text/css" href="design/header.css">
 
 
 <nav class="navbar navbar-fixed-left" id="my-navbar">

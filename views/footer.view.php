@@ -8,8 +8,9 @@
 <div class = "plus" id = "block">
 <h3><mark>En savoir plus<mark/> </h3>
 <p> 
-A propos <br/>
-Comment ça marche ?
+<a href="apropos.php">A propos</a> 
+<br/>
+<a href="ccm.php">Comment ça marche ?</a>
 </p>
 </div>
 
