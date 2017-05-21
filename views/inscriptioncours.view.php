@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Teach and Learn</title>
-	<link rel="stylesheet" type="text/css" href="design/style.css">
+	<?php include_once('includes/links.php'); ?>
 </head>
 <body>
 	<div id = "main">

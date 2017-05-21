@@ -3,7 +3,7 @@
 <head>
 	<title>Projet ISN</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="design/style.css">
+	<?php include_once('includes/links.php'); ?>
 	<link rel="stylesheet" type="text/css" href="design/ccm.css">
 </head>
 <body>
