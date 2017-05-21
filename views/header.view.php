@@ -1,16 +1,25 @@
 <link rel="stylesheet" type="text/css" href="header.css">
 
 
-<div class = "container">
-		<div class = "pull-left">
-			<div class = "logo">
-				<a href="index.php">
-					<img src="ressources/logo.png">
-				</a>
-			</div>
-		</div>
-</div>
+<nav class="navbar navbar-fixed-left" id="my-navbar">
+	<div class = "container">
+		<div class = "navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target ="#navbar-collapse" >
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			
+			</button>
 
+			<a href="index.php"><href= "class=navbar-brand"><img src="ressources/logo.png"></a>
+		</div>
+		<div class="collapse navbar-collapse" id="navbar-collapse">
+			<ul class="nav navbar-nav">
+				<li><a href="index.php">Accueil</a>
+				<li><a href="connexion.php ">Se connecter</a>
+			</ul>
+		</div>
+	</div>
+</nav>
 
 
 <?php if($connect){ ?>
