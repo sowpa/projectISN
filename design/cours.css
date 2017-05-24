@@ -1,6 +1,6 @@
-/* ESPACE INSCRIPTION */
+/* ESPACE CONNEXION */
 
-.titreins{
+.titrecours{
     font-family: 'Roboto-Light';
     color: white;
     background-color: rgb(44, 44, 44);
@@ -13,29 +13,8 @@
     
 }
 
-.form-horizontal{
-    background-color: #e6ba6e;
-    margin-right: 30%;
-    margin-left: 30%;
-    box-shadow: 5px 5px 10px black;
 
-
-}
-
-.form-group{
-    font-family: 'Roboto-Condensed';
-    color: rgb(44, 44, 44);
-    font-size : 20px;
-    padding : 5px 5px;
-}
-
-.form-controlinput-md{
-    border : 2px #191970 outset;
-    font-family: 'CaviarDreams_Bold';
-}
-
-
-.btn{
+.inscripcours{
     font-family: 'Roboto-Light';
     color: white;
     background: linear-gradient(180deg,#47449c, #2c2c2c);
@@ -46,9 +25,8 @@
     
     border: 1px black;
     box-shadow: 3px 3px 8px black;
+    
 
 }
 
-
-
-/* FIN ESPACE INSCRIPTION */
+/* FIN ESPACE CONNEXION */

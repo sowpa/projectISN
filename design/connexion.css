@@ -1,5 +1,4 @@
 /* ESPACE CONNEXION */
-
 .titreconnex{
     font-family: 'Roboto-Light';
     color: white;
@@ -15,12 +14,25 @@
 
 .form-connex{
     background-color: #e6ba6e;
-    margin-right: 30%;
-    margin-left: 30%;
+    margin-right: 20%;
+    margin-left: 20%;
     box-shadow: 5px 5px 10px black;
-
-
 }
+
+
+.form-group{
+    font-family: 'Roboto-Condensed';
+    color: rgb(44, 44, 44);
+    font-size : 20px;
+    display: inline-block;
+    padding-top: 25px;
+}
+
+.form-controlinput-md{
+    border : 2px #191970 outset;
+    font-family: 'CaviarDreams_Bold';
+}
+
 
 .btnconx{
     font-family: 'Roboto-Light';
@@ -29,7 +41,9 @@
     border-radius: 10px;
     text-align: center;
     display: inline-block;
-    font-size: 30px;
+    font-size: 30px;   
+    border: 1px black;
+    box-shadow: 3px 3px 8px black;
     
 
 }
