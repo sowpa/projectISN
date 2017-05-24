@@ -10,30 +10,26 @@
 			</button>
 
 			<a href="index.php"><href= "class=navbar-brand"><img src="ressources/logo.png"></a>
+
+			<div class="collapse navbar-collapse" id="navbar-collapse">
+				<?php if($connect){ ?>
+				<!-- si l'utilisateur est connecté -->
+				<ul class="nav navbar-nav">
+					<li><a href="profil.php?id=<?php echo $_SESSION['id'];?>">mon profil</a></li>
+					<li><a href="deconnexion.php">se déconnecter</a></li>
+					<li><a href="createcourse.php">créer un cours</a></li>
+				</ul>
+
+				<?php }	else{ ?>
+				<!-- si l'utilisateur n'est pas connecté -->
+					<ul class="nav navbar-nav">
+						<li><a href="connexion.php">se connecter</a>
+						<li><a href="inscription.php">s'inscrire</a>
+					</ul>
+
+				<?php } ?>
+
+			</div>
 		
-		<!--<div class="collapse navbar-collapse" id="navbar-collapse">
-			<ul class="nav navbar-nav">
-				<li><a href="index.php">Accueil</a>
-				<li><a href="connexion.php ">Se connecter</a>
-			</ul>-->
-		</div>
 	</div>
 </nav>
-
-
-<?php if($connect){ ?>
-<!-- si l'utilisateur est connecté -->
-	<a href="profil.php?id=<?php echo $_SESSION['id'];?>">mon profil</a>
-	|
-	<a href="deconnexion.php">se déconnecter</a>
-	|
-	<a href="createcourse.php">créer un cours</a>
-
-<?php }	else{ ?>
-<!-- si l'utilisateur n'est pas connecté -->
-	<ul class="nav navbar-nav">
-		<li><a href="connexion.php">se connecter</a>
-		<li><a href="inscription.php">s'inscrire</a>
-	</ul>
-
-<?php } ?>
