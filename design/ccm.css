@@ -18,6 +18,8 @@
     margin-right: 20%;
     margin-left: 20%;
     box-shadow: 5px 5px 10px black; 
+    padding : 5px 5px 5px 5px;
+    margin-bottom: 20px;
 
 }
 
@@ -30,11 +32,12 @@
     margin-right: 20%;
     margin-left: 20%;
     box-shadow: 5px 5px 10px black;	
+    padding : 5px 5px 5px 5px;
 }
 
 .titrenotice{
 	font-family: 'CaviarDreams_Bold';
-	padding-left : 10px;
+
 }
 
 dl 
@@ -48,7 +51,7 @@ dt
 width: 16em;
 margin:0 0 1em −5em;
 font-weight: bold;
-font-family: 'Roboto-Light';
+font-family: 'CaviarDreams_Bold';
 font-size: 20px;
 color : rgb(44,44,44);
 }

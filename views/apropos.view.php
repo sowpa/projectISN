@@ -21,8 +21,7 @@
 			<br><br>
 			Né durant l'été 2016 dans la tête de trois lycéens en terminale scientifique, ce concept fait l'objet de leur projet
 			de spécialité ISN (Informatique et Science du Numérique)
-			<strong> A COMPLETER +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-			+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</strong>
+
 			</p>
 			</div>
 
