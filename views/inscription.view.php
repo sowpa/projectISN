@@ -56,14 +56,15 @@
             </div>       
           </div>
           <br/>
-      </form>
+      
 
         <br>
         <div class="g-recaptcha" data-sitekey="6LfxDgwUAAAAAM9ctoroK6t0u7BsofOqPKe5Pe2z"></div>
         <br>
 
         <input class="btn" type="submit" value="S'inscrire" name="forminscription">
-
+        <br><br>
+      </form>
 			<?php
 				if (isset($erreur)) {
 					echo $erreur;

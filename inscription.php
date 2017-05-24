@@ -65,7 +65,6 @@ if(isset($_POST['g-recaptcha-response'])){
 																		));
 
 										echo($key);
-										var_dump($req->errorInfo());
 																		
 
 										//envoie de l'email de confirmation

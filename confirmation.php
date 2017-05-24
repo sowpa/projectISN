@@ -16,7 +16,6 @@ if(isset($_GET['pseudo'], $_GET['key']) AND !empty($_GET['pseudo']) AND !empty($
 	$requser->execute(array($pseudo, $key));
 	$userexist = $requser->rowCount();
 
-	var_dump($userexist);
 
 	if($userexist == 1){
 		$user = $requser->fetch();
@@ -26,7 +25,7 @@ if(isset($_GET['pseudo'], $_GET['key']) AND !empty($_GET['pseudo']) AND !empty($
 			echo "Votre compte a bien été confirmé.";
 		}
 		else{
-			echo "Votre compte n'existe pas.";
+			echo "Votre compte a deja été confirmé.";
 		}
 	}
 	else{
