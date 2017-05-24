@@ -19,7 +19,7 @@
 					<?php echo $c['titre']; ?>
 
 					<div align="right">
-						<input type="submit" value="Annuler" name="cancel">
+						<a href="validations.php?annulerCours=<?php echo $c['id']; ?>">Annuler ce cours</a>
 					</div>
 				</div>
 				<?php }
@@ -36,8 +36,8 @@
 				<div>
 					<?php echo $c['titre']; ?>
 					<div align="right">
-					<input type="submit" value="J'ai suivi ce cours" name="followed">
-					<input type="submit" value="Annuler" name="cancel">
+					<a href="validations.php?coursSuivi=<?php echo $c['id']; ?>">J'ai suivi ce cours</a>
+					<a href="validations.php?coursNonSuivi=<?php echo $c['id']; ?>">Ne plus suivre ce cours</a>
 					</div>
 
 				</div>
