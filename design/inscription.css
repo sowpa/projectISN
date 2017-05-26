@@ -14,7 +14,7 @@
 }
 
 .form-horizontal{
-    background-color: #e6ba6e;
+    background: linear-gradient(180deg,#ca665e, #874e70, #372d77);
     margin-right: 30%;
     margin-left: 30%;
     box-shadow: 5px 5px 10px black;
@@ -24,7 +24,7 @@
 
 .form-group{
     font-family: 'Roboto-Condensed';
-    color: rgb(44, 44, 44);
+    color: #FAFAD2;
     font-size : 20px;
     padding : 5px 5px;
 }
@@ -32,6 +32,7 @@
 .form-controlinput-md{
     border : 2px #191970 outset;
     font-family: 'CaviarDreams_Bold';
+    color: rgb(44,44,44);
 }
 
 

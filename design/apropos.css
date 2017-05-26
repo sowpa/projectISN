@@ -14,21 +14,23 @@
 }
 
 .description{
-    background-color: #e6ba6e;
+    background: linear-gradient(180deg,#ca665e, #874e70, #372d77);
     margin-right: 20%;
     margin-left: 20%;
     box-shadow: 5px 5px 10px black;
-
+    color: #FAFAD2;
 }
 
 .devise{
 	font-family: 'CaviarDreams_Bold';
     font-size: 25px;
+    color: #FAFAD2;
 
 }
 
 .descriptiongen{
 	font-family: 'CaviarDreams_Bold';
+    color: #FAFAD2;
 
 }
 

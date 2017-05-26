@@ -14,29 +14,33 @@
 }
 
 .exemple{
-    background-color: #e6ba6e;
+    background: linear-gradient(180deg,#ca665e, #874e70, #372d77);
     margin-right: 20%;
     margin-left: 20%;
     box-shadow: 5px 5px 10px black; 
     padding : 5px 5px 5px 5px;
     margin-bottom: 20px;
+    color: #FAFAD2;
 
 }
 
 .exemple2{
-	font-family: 'CaviarDreams_Bold'
+	font-family: 'CaviarDreams_Bold';
+    color: #FAFAD2;
 }
 
 .notice{
-    background-color: #e6ba6e;
+    background: linear-gradient(180deg,#372d77, #874e70, #ca665e);
     margin-right: 20%;
     margin-left: 20%;
     box-shadow: 5px 5px 10px black;	
     padding : 5px 5px 5px 5px;
+    color: #FAFAD2;
 }
 
 .titrenotice{
 	font-family: 'CaviarDreams_Bold';
+    color: #FAFAD2;
 
 }
 
@@ -53,7 +57,7 @@ margin:0 0 1em −5em;
 font-weight: bold;
 font-family: 'CaviarDreams_Bold';
 font-size: 20px;
-color : rgb(44,44,44);
+color : #FAFAD2;
 }
 
 
