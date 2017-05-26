@@ -4,6 +4,7 @@
 	<title>Projet ISN</title> 
 	<meta charset="utf-8">
 	<?php include_once('includes/links.php'); ?>
+	<link rel="stylesheet" type="text/css" href="design/mescours.css">
 </head>
 
 <body>
@@ -11,7 +12,7 @@
 		<header><?php include_once('includes/header.php'); ?></header>
 
 		<div align="center">
-			<h2> Les cours à donner</h2>
+			<h2 class="titreadonner"> Les cours à donner</h2>
 			<br>
 			<?php if($nbCours > 0){
 				while($c = $coursQuery->fetch()){ ?>
@@ -19,7 +20,7 @@
 					<?php echo $c['titre']; ?>
 
 					<div align="right">
-						<a href="validations.php?annulerCours=<?php echo $c['id']; ?>">Annuler ce cours</a>
+						<a class="annulercours" href="validations.php?annulerCours=<?php echo $c['id']; ?>">Annuler ce cours</a>
 					</div>
 				</div>
 				<?php }
@@ -29,15 +30,15 @@
 				}?>
 
 
-			<h2> Les cours à suivre</h2>
+			<h2 class="titreasuivre"> Les cours à suivre</h2>
 			<br>
 			<?php if($nbCoursF > 0){
 				while($c = $coursFollowed->fetch()){ ?>
 				<div>
 					<?php echo $c['titre']; ?>
 					<div align="right">
-					<a href="validations.php?coursSuivi=<?php echo $c['id']; ?>">J'ai suivi ce cours</a>
-					<a href="validations.php?coursNonSuivi=<?php echo $c['id']; ?>">Ne plus suivre ce cours</a>
+					<a class="suivi" href="validations.php?coursSuivi=<?php echo $c['id']; ?>">J'ai suivi ce cours</a>
+					<a class="plussuivre" href="validations.php?coursNonSuivi=<?php echo $c['id']; ?>">Ne plus suivre ce cours</a>
 					</div>
 
 				</div>

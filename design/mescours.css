@@ -1,0 +1,65 @@
+/* a propos */
+
+.titreadonner{
+    font-family: 'Roboto-Light';
+    color: white;
+    background-color: rgb(44, 44, 44);
+    border-radius: 5px;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.titreasuivre{
+    font-family: 'Roboto-Light';
+    color: white;
+    background-color: rgb(44, 44, 44);
+    border-radius: 5px;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.annulercours{
+    color: white;
+    background: linear-gradient(180deg,#FF0000, #8B0000);
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    padding : 4px;
+    border: 1px black;
+    box-shadow: 3px 3px 8px black; 
+
+}
+
+.suivi{
+    color: white;
+    background: linear-gradient(180deg,#008000, #006400);
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    padding : 4px;
+    border: 1px black;
+    box-shadow: 3px 3px 8px black; 
+
+}
+
+
+.plussuivre{
+    color: white;
+    background: linear-gradient(180deg,#FF0000, #8B0000);
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    padding : 4px;
+    border: 1px black;
+    box-shadow: 3px 3px 8px black; 
+
+}
