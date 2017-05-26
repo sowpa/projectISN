@@ -25,7 +25,7 @@
 
 
 				<div class="form-group">
-  				<label class="col-md-4 control-label" for="ville">La ville où vous donnerez votre cours</label> 
+  				<label class="col-md-4 control-label" for="ville">La ville où vous donnerez votre cours :</label> 
 					<div class="col-md-4">
 						<input id="ville" name="ville" type="text" placeholder="Exemple : Paris" class="form-controlinput-md">
 					</div>
@@ -44,7 +44,7 @@
 				<label class="col-md-4 control-label" for="description_long">Une longue description de votre cours : </label>
 				<br/>
 					<div class="col-md-4">
-						<textarea rows="10" name="description_long" id="description_long" cols="40" class="form-controlinput-md"></textarea><br/>
+						<textarea rows="15" name="description_long" id="description_long" cols="30" class="form-controlinput-md"></textarea><br/>
 					</div>
 				</div>
 				<br/><br/>
