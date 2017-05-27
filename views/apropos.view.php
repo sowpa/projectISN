@@ -38,24 +38,3 @@
 	<footer><?php include_once("includes/footer.php"); ?></footer>
 </body>
 </html>
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-		
-	</div>
-</body>
-</html>

@@ -29,7 +29,7 @@
 				echo "Personne n'est inscrit à un de vos cours";
 				}?>
 
-
+			<br>
 			<h2 class="titreasuivre"> Les cours à suivre</h2>
 			<br>
 			<?php if($nbCoursF > 0){

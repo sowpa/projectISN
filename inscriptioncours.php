@@ -8,5 +8,41 @@ Inscription a un cours.
 
 include_once('includes/config.php');
 include_once('includes/cookieconnect.php');
+include_once('includes/fonctions.php');
 
- ?>
+if(isset($_GET['id'])){
+	if(isset($_SESSION['id']) AND my_userexists($_SESSION['id'], $bdd)){
+		$query = $bdd->prepare('SELECT * FROM cours WHERE id = ?');
+		$query->execute(array($_GET['id']));
+		$cours = $query->fetch();
+		if($cours['suivi'] != 0){
+			$message = "Désolé ! Quelqu'un d'autre est déja inscrit à ce cours.";
+		}
+		else{
+			//Le cours est suivi
+			$query = $bdd->prepare('UPDATE `cours` SET `suivi`= ?, active = 0 WHERE id = ?');
+			$query->execute(array($_SESSION['id'], $_GET['id']));
+
+			//Transfert de crédit
+			//perte de crédit
+			$query = $bdd->prepare('UPDATE membres SET credit = credit - 1 WHERE id = ?');
+			$query->execute(array($_SESSION['id']));
+
+			//gain de crédit
+			$query = $bdd->prepare('UPDATE membres SET credit = credit + 1 WHERE id = ?');
+			$query->execute(array($cours['id_teacher']));
+
+
+
+			$message = "Vous avez bien été inscrit au cours " . $cours['titre'];
+		}
+	}
+	else{
+		$message = "Vous devez être connecté pour accéder à cette page.";
+	}
+}
+else{
+	$message = "Ce cours n'existe pas.";
+}
+	include_once('views/inscriptioncours.view.php');
+?>

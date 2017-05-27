@@ -58,7 +58,7 @@ else{
 }
 }
 else{
-	$erreur = "Vous devez être connecté pour céer un cours.";
+	$erreur = "Vous devez être connecté pour créer un cours.";
 }
 
 
