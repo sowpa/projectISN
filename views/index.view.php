@@ -4,6 +4,7 @@
 	<title>Projet ISN</title>
 	<meta charset="utf-8">
 	<?php include_once('includes/links.php'); ?>
+	<link rel="stylesheet" type="text/css" href="design/index.css">
 
 
 </head>

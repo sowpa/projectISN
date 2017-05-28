@@ -12,7 +12,7 @@
 				<div class="col-md-3">
 				<!-- row start -->
 					<div class="row">
-						<div class="col-sm-9">
+						
 							<div class = "plus" id = "block">
 								<h3><mark>En savoir plus<mark/> </h3>
 								<p> 
@@ -21,7 +21,7 @@
 								<a href="ccm.php">Comment ça marche ?</a>
 								</p>
 							</div>
-						</div>
+						
 					</div>
 					<!-- row end -->
 				</div>
@@ -33,7 +33,7 @@
     		    <div class="col-md-3">
     		     <!-- row start -->
     		    	 <div class="row">
-    		    	 	<div class="col-sm-9">
+    		    	 	
 								
 								<div class = "qui" id = "block">
 								<h3><mark>Qui sommes-nous ?<mark/> </h3>
@@ -43,7 +43,7 @@
 								Gabriel Colson
 								</p>
 								</div>
-						</div>
+						
         			 </div>
         			  <!-- row end -->
        			</div>
@@ -55,7 +55,7 @@
         		<div class="col-md-3">
         		 <!-- row start -->
         		 	<div class="row">
-        		 		<div class="col-sm-9">
+        		 		
 							
 								<div class="contact" id = "block">
 								<h3><mark>Contact<mark/></h3>
@@ -64,6 +64,6 @@
 								Numéro de téléphone (?)
 								</p>
 								</div>
-						</div>
+						
 					</div>
 				</div>

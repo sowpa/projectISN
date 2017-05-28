@@ -4,6 +4,10 @@ footer{
   background-color: rgb(44,44,44);
 }
 
-h3, p{
+p{
 	color: white;
+}
+
+img {
+	padding-right: 50px;
 }
