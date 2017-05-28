@@ -4,6 +4,6 @@ footer{
   background-color: rgb(44,44,44);
 }
 
-.qui{
-	align-self: center;
+h3, p{
+	color: white;
 }
