@@ -10,7 +10,7 @@
 	<div id = "main">
 		<header><?php include_once('includes/header.php'); ?></header>
 		<div align="center">
-			<h2 class="titreapropos">A propos</h2>
+			<h2 class="titre">A propos</h2>
 			<br><br><br>
 			<div class="description">
 			<h2 class="devise"> Teach & Learn, la nouvelle façon d'apprendre en ligne !</h2>

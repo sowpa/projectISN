@@ -11,12 +11,13 @@
 	<div id = "main">
 		<header><?php include_once('includes/header.php'); ?></header>
 		<div align="center">
-			<h2 class="titrecours"><?= $data['titre'] ?></h2>
+			<h2 class="titre"><?= $data['titre'] ?></h2>
 			<br><br><br>
 			<div>
 				<p><?= nl2br($data['description_long']) ?></p>
 			</div>
 			<a class ="inscripcours"href="inscriptioncours.php?id=<?= $data['id'] ?>">S'inscrire au cours</a>
+			<br><br><br>
 		</div>
 	<footer><?php include_once("includes/footer.php"); ?></footer>
 	</div>

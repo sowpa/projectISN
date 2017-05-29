@@ -9,7 +9,7 @@
 	<div id = "main">
 		<header><?php include_once('includes/header.php'); ?></header>
 		<div align="center">
-			<h1>Profil de <?php echo $userinfo['pseudo']; ?></h1>
+			<h1 class="titre">Profil de <?php echo $userinfo['pseudo']; ?></h1>
 			<br /><br />
 			<img src="membres/avatars/<?php echo $userinfo['avatar']; ?>" width=150>
 			<br /><br />

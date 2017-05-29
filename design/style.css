@@ -36,15 +36,29 @@ p {
   position: relative;
 }
 
+.titre{
+    font-family: 'Roboto-Light';
+    color: white;
+    background-color: rgb(44, 44, 44);
+    border-radius: 5px;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    
+}
 
-h1 {
+
+
+/*h1 {
 	width: 50%;
    color: white;
    border-width: 12px; 
    border-radius: 20px;
    font-family: 'Roboto-Condensed', 45pt; 
    background: linear-gradient(360deg,#2c2c2c, #47449c);
-}
+}*/
 
 
 mark {

@@ -9,7 +9,8 @@
 	<div id = "main">
 		<header><?php include_once('includes/header.php'); ?></header>
 		<div align="center">
-			<h2>Edition de mon profil</h2>
+			<h1 class="titre">Edition de mon profil</h1>
+			<br><br>
 			<form method="POST" action="" enctype="multipart/form-data">
 				<table>
 					<tr>

@@ -10,7 +10,7 @@
 	<div id = "main">
 		<header><?php include_once('includes/header.php'); ?></header>
 		<div align="center">
-			<h2 class="titreccm">Comment ça marche ?</h2>
+			<h2 class="titre">Comment ça marche ?</h2>
 
 			<br><br><br>
 

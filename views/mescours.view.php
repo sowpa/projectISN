@@ -12,7 +12,7 @@
 		<header><?php include_once('includes/header.php'); ?></header>
 
 		<div align="center">
-			<h2 class="titreadonner"> Les cours à donner</h2>
+			<h2 class="titre"> Les cours à donner</h2>
 			<br>
 			<?php if($nbCours > 0){
 				while($c = $coursQuery->fetch()){ ?>
@@ -30,7 +30,7 @@
 				}?>
 
 			<br>
-			<h2 class="titreasuivre"> Les cours à suivre</h2>
+			<h2 class="titre"> Les cours à suivre</h2>
 			<br>
 			<?php if($nbCoursF > 0){
 				while($c = $coursFollowed->fetch()){ ?>
@@ -50,12 +50,7 @@
 			}?>
 
 		</div>
-
-
-
-
 <footer><?php include_once("includes/footer.php"); ?></footer>
 	</div>
 </body>
 </html>
-

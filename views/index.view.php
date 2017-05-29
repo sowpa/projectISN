@@ -12,7 +12,7 @@
 	<div id = "main">
 		<header><?php include_once('includes/header.php'); ?></header>
 		<div align="center">
-			<h1>Les derniers cours</h1>		
+			<h1 class="titre">Les derniers cours</h1>		
 		</div>
 		<div align="center">
 		<?php while($c = $cours->fetch()) {	?>

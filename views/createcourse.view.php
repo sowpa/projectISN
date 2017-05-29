@@ -10,7 +10,7 @@
 	<div id = "main">
 		<header><?php include_once('includes/header.php'); ?></header>
 		<div align="center">
-			<h2 class="titrecrea">Création de cours</h2>
+			<h2 class="titre">Création de cours</h2>
 			<br><br><br>
 			<form class="form-horizontal" name="creation" method="POST" action="">
 			

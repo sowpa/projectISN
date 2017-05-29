@@ -12,7 +12,7 @@
 		<header><?php include_once('includes/header.php'); ?></header>
 		<div align="center">
 
-			<h2 class="titreconnex">Connexion</h2>
+			<h2 class="titre">Connexion</h2>
 
 			<br><br><br>
 
