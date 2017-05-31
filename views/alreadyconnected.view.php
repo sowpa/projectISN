@@ -12,6 +12,10 @@
 			<h2>Connexion</h2>
 			<br><br><br>
 			<div align="center">Vous etes déja connecté.</div>
+			
+		<br><br><br><br><br><br>
+		<br><br><br><br><br><br>
+		<br><br><br><br><br><br>
 		<footer><?php include_once("includes/footer.php"); ?></footer>
 	</div>
 </body>

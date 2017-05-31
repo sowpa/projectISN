@@ -22,6 +22,10 @@
 			<br>
 			<a href="mescours.php">Mes cours</a>
 			<?php } ?>
+
+		<br><br><br><br><br><br>
+		<br><br><br><br><br><br>
+		<br><br><br><br><br><br>
 		</div>
 
 		<footer><?php include_once("includes/footer.php"); ?></footer>

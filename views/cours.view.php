@@ -18,6 +18,11 @@
 			</div>
 			<a class ="inscripcours"href="inscriptioncours.php?id=<?= $data['id'] ?>">S'inscrire au cours</a>
 			<br><br><br>
+			
+		<br><br><br><br><br><br>
+		<br><br><br><br><br><br>
+		<br><br><br><br><br><br>
+		<br><br><br><br><br><br>
 		</div>
 	<footer><?php include_once("includes/footer.php"); ?></footer>
 	</div>

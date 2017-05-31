@@ -59,6 +59,10 @@
 				<br /><br />
 			</form>
 			<?php if(isset($erreur)) {echo $erreur;} ?>
+
+		<br><br><br><br><br><br>
+		<br><br><br><br><br><br>
+		<br><br><br>
 		</div>
 		<footer><?php include_once("includes/footer.php"); ?></footer>
 	</div>

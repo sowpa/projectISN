@@ -59,7 +59,11 @@
 
 			<p>Pas encore de compte ? <a href="inscription.php">Inscrivez vous</a>!</p>
 
-		</div>	
+		</div>
+
+		<br><br><br><br><br><br>
+		<br><br><br><br><br><br>
+
 		<footer><?php include_once("includes/footer.php"); ?></footer>
 	</div>
 </body>

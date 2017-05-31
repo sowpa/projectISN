@@ -62,6 +62,7 @@
 					echo $message;
 				}
 			?>
+			<br><br>
 		</div>	
 		<footer><?php include_once("includes/footer.php"); ?></footer>
 	</div>

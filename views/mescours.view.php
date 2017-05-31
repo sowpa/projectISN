@@ -49,6 +49,10 @@
 				echo "Vous n'êtes inscrit à aucun cours";
 			}?>
 
+		<br><br><br><br><br><br>
+		<br><br><br><br><br><br>
+		<br><br><br><br><br><br>
+		<br><br><br><br><br><br>
 		</div>
 <footer><?php include_once("includes/footer.php"); ?></footer>
 	</div>
