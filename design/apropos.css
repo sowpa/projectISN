@@ -32,6 +32,9 @@
 
 .citation1{
     padding-left: 20px;
+    font-family: 'Roboto-Light';
+    font-size : 30px;
+    font-style: italic;
 }
 
 .photo1{
@@ -49,9 +52,17 @@
 
 .citation2{
     padding-right: 20px;
+    font-family: 'Roboto-Light';
+    font-size : 30px;
+    font-style: italic;
 }
 
 
 .photo2{
     padding-left: 20px;
+}
+
+.illustrationprof{
+    height:60px;
+    width: 60px;
 }

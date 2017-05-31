@@ -34,7 +34,7 @@
 				<div class="form-group">
 				<label class="col-md-4 control-label" for="description">Une courte description de votre cours : </label>
 					<div class="col-md-4">
-						<textarea rows="3" name="description" id="description" placeholder="Exemple : Apprenez les math avec un élève de terminal S !" cols="24" class="form-controlinput-md"></textarea>
+						<textarea rows="3" name="description" id="description" placeholder="Exemple : Apprenez les math avec un élève de terminale S !" cols="24" class="form-controlinput-md"></textarea>
 					</div>
 				</div>				
 

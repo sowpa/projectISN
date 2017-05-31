@@ -19,6 +19,7 @@
     background: linear-gradient(180deg,#372d77, #874e70, #ca665e);
     margin-right: 20%;
     margin-left: 20%;
+    margin-bottom: 5%;
     box-shadow: 5px 5px 10px black;	
     padding : 5px 5px 5px 5px;
     color: #FAFAD2;
@@ -50,7 +51,7 @@ color : #FAFAD2;
 dd
 {
 width:100%;
-padding: .2em 0 0 0;
+padding: .2em 2em 0 0;
 margin: 0 0 1em 0;
 font-family: 'Roboto-Light';
 font-size: 15px;
