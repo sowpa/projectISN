@@ -3,6 +3,7 @@
     margin-right: 50%;
     margin-left: 22%;
     width : 150px;
+    box-shadow: 2px 2px 8px black; 
 }
 
 .linkmescours{
@@ -14,7 +15,7 @@
     display: inline-block;
     font-size: 15px;   
     border: 1px black;
-    box-shadow: 3px 3px 8px black;    
+    box-shadow: 2px 2px 8px black;    
     padding : 5px;
 }
 
@@ -27,7 +28,7 @@
     display: inline-block;
     font-size: 15px;   
     border: 1px black;
-    box-shadow: 3px 3px 8px black;    
+    box-shadow: 2px 2px 8px black;    
     padding : 5px;    
 }
 

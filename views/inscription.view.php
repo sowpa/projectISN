@@ -8,6 +8,7 @@
 	<script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body>
+
 	<div id = "main">
 		<header><?php include_once('includes/header.php'); ?></header>
 		<div align="center">
