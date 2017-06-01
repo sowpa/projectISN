@@ -1,12 +1,54 @@
 
-.exemple{
-    background: linear-gradient(180deg,#ca665e, #874e70, #372d77);
-    margin-right: 20%;
-    margin-left: 20%;
-    box-shadow: 5px 5px 10px black; 
-    padding : 5px 5px 5px 5px;
-    margin-bottom: 20px;
-    color: #FAFAD2;
-
+.pdp{
+    margin-right: 50%;
+    margin-left: 22%;
+    width : 150px;
 }
 
+.linkmescours{
+    font-family: 'Roboto-Light';
+    color: white;
+    background: linear-gradient(180deg,#47449c, #2c2c2c);
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;   
+    border: 1px black;
+    box-shadow: 3px 3px 8px black;    
+    padding : 5px;
+}
+
+.linkedition{
+    font-family: 'Roboto-Light';
+    color: white;
+    background: linear-gradient(180deg,#47449c, #2c2c2c);
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;   
+    border: 1px black;
+    box-shadow: 3px 3px 8px black;    
+    padding : 5px;    
+}
+
+.profil{
+    background: linear-gradient(180deg,#ca665e, #874e70, #372d77);
+    margin-right:40%;
+    margin-left: 40%;
+    padding-top: 20px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.pseudo{
+    border : 2px #191970 outset;
+    font-family: 'CaviarDreams_Bold';
+    color: white;
+    font-size : 15px;
+}
+
+.mail{
+    border : 2px #191970 outset;
+    font-family: 'CaviarDreams_Bold';
+    color: white;
+    font-size : 15px;
+}

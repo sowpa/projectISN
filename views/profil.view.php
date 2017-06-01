@@ -12,22 +12,26 @@
 		<div align="center">
 			<h1 class="titre">Profil de <?php echo $userinfo['pseudo']; ?></h1>
 			<br /><br />
-			<img src="membres/avatars/<?php echo $userinfo['avatar']; ?>" width=150 align="center">
-			<br /><br />
-			Pseudo : <?php echo $userinfo['pseudo']; ?>
-			<br /><br />
-			Mail : 	<?php echo $userinfo['mail']; ?>
+			<div class="profil">
+			<img src="membres/avatars/<?php echo $userinfo['avatar']; ?>" class="pdp">
+			<br/><br/>
+			<p class="pseudo"> Pseudo : <?php echo $userinfo['pseudo']; ?> </p>
+			<br/>
+			<p class="mail"> Mail : 	<?php echo $userinfo['mail']; ?> </p>
 			<br /><br />
 			<?php if($mine){ ?>
-			<a href="editionprofil.php">Editer mon profil</a>
-			<br>
-			<a href="mescours.php">Mes cours</a>
+			<a class="linkedition" href="editionprofil.php">Editer mon profil</a>
+			<br/><br/>
+			<a class="linkmescours" href="mescours.php">Mes cours</a>
 			<?php } ?>
+			<br/><br/>
+			</div>
 
-		<br><br><br><br><br><br>
-		<br><br><br><br><br><br>
-		<br><br><br><br><br><br>
 		</div>
+		<br><br><br><br><br><br>
+		<br><br><br><br><br><br>
+		<br><br><br><br><br><br>
+		
 
 		<footer><?php include_once("includes/footer.php"); ?></footer>
 	</div>
