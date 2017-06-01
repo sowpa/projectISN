@@ -113,6 +113,6 @@ if(isset($_SESSION['id'])){
 	include_once('views/editionprofil.view.php');
 }
 else{
-	header("Location: connexion.php");
+	header("Location: etreco.php");
 }
 ?>

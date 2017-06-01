@@ -36,7 +36,7 @@ if(isset($_GET['id'])){
 		}
 	}
 	else{
-		$message = "Vous devez être connecté pour accéder à cette page.";
+		header("location:etreco.php");
 	}
 }
 else{

@@ -26,6 +26,6 @@ if(isset($_SESSION['id'])){
 include_once('views/mescours.view.php');
 }
 else{
-	echo "Vous devez être connecté pour accéder a cette page.";
+	header("location:etreco.php");
 }
 ?>
