@@ -44,10 +44,14 @@
              		</dd> 
              
              	<dt>Partie réelle</dt>
-             		<dd>comment ça se passe ?</dd>
+             		<dd>Mettez-vous d'accord pour convenir d'une rencontre !<br/>
+                    Pour cela, échangez par mail avec le membre qui propose ce cours (adresse mail que vous trouverez sur la page de son profil) afin de convenir d'un rendez vous. Cependant, un système de messagerie ne tardera pas à voir le jour sur Teach & Learn.
+                    </dd>
              		
              	<dt>Système de point</dt>
-             		<dd>idem</dd>            	
+             		<dd>Il faut enseigner pour pouvoir apprendre !<br/>
+                    Chaque cours enseigné vous rapporte un point, et pour prendre part à un cours il vous faudra payer un point. 
+                    </dd>            	
         		</dl>
 
 				<h3 align="center" class="titrenotice">Comment créer un cours ?</h3>
@@ -64,14 +68,15 @@
              		</dd> 
              
              	<dt>Votre cours</dt>
-             		<dd>Désormais, votre cours existe dans notre base de donnée !<br/>
+             		<dd>Désormais, votre cours existe dans notre base de donnée ! <br/>
              		Il s'affichera dans un premier temps dans la page d'accueil parmis les 4 cours les plus récents, mais vous pourrez également trouver l'intégralité des cours que vous avez à donner et des cours que vous désirez suivre dans la page "Mes cours" accessible depuis le header.
-             		Lorsque d'autres cours seront crées, le votre disparaîtra de la page d'accueil mais, pas de panique, vous pourrez toujours le trouver dans la page "Trouver un cours", ainsi que l'intégralité des cours existants sur notre site web.
+             		Lorsque d'autres cours seront crées, le votre disparaîtra de la page d'accueil mais, pas de panique vous pourrez toujours le trouver dans la page "Trouver un cours", ainsi que l'intégralité des cours existants sur notre site web.
              		</dd>
              		
              	<dt>Gestion de votre cours</dt>
-             		<dd>Vous pouvez toujours changer d'avis et décider de ne plus délivrer ce cours !
-             		En effet, en vous rendant dans la page "Mes cours" et dans la rubrique "Les cours à donner", vous pourrez voir les cours que vous êtes censé délivrer et, à droite de ceux-ci, un bouton "Annuler ce cours" qui vous permet de rendre impossible l'inscription à votre cours. [rajouter qq chose sur cmt ça se passe le réel]             		</dd>            	
+             		<dd>Vous pouvez toujours changer d'avis et décider de ne plus délivrer ce cours ! <br/>
+             		En effet, en vous rendant dans la page "Mes cours" et dans la rubrique "Les cours à donner", vous pourrez voir les cours que vous êtes censé délivrer et, à droite de ceux-ci, un bouton "Annuler ce cours" qui vous permet de rendre le point payé par l'élève s'étant inscrit à votre cours et vous n'aurez plus à délivrer ce cours.
+                    </dd>            	
         		</dl>
         
 			</div>
