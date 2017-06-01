@@ -15,19 +15,20 @@
 			<br><br><br>
 			<div>
 				<p><?= nl2br($data['description_long']) ?></p>
+				<p>Ville : <?= $data['ville'] ?></p>
+				<p>Proposé par : <?= $data['pseudo'] ?></p>
 			</div>
 			<a class ="inscripcours"href="inscriptioncours.php?id=<?= $data['id'] ?>">S'inscrire au cours</a>
 			<br><br><br>
 			
-		<br><br><br><br><br><br>
-		<br><br><br><br><br><br>
-		<br><br><br><br><br><br>
-		<br><br><br><br><br><br>
+			<br><br><br><br><br><br>
+			<br><br><br><br><br><br>
+			<br><br><br><br><br><br>
+			<br><br><br><br><br><br>
 		</div>
 	<footer><?php include_once("includes/footer.php"); ?></footer>
 	</div>
 
 </body>
-
 
 </html>
