@@ -1,4 +1,3 @@
-
 .pdp{
     margin-right: 50%;
     margin-left: 22%;
@@ -40,15 +39,7 @@
     box-shadow: 5px 5px 10px black;
 }
 
-.pseudo{
-    border : 2px #191970 outset;
-    font-family: 'CaviarDreams_Bold';
-    color: white;
-    font-size : 15px;
-}
-
-.mail{
-    border : 2px #191970 outset;
+.infos{
     font-family: 'CaviarDreams_Bold';
     color: white;
     font-size : 15px;

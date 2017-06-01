@@ -15,9 +15,13 @@
 			<div class="profil">
 			<img src="membres/avatars/<?php echo $userinfo['avatar']; ?>" class="pdp">
 			<br/><br/>
-			<p class="pseudo"> Pseudo : <?php echo $userinfo['pseudo']; ?> </p>
+			<div class="infos">
+			<p> Pseudo : <?php echo $userinfo['pseudo']; ?> </p>
 			<br/>
-			<p class="mail"> Mail : 	<?php echo $userinfo['mail']; ?> </p>
+			<p> Mail : 	<?php echo $userinfo['mail']; ?> </p>
+			<br/>
+			<p> Crédit(s) : 	<?php echo $userinfo['credit']; ?> </p>
+			</div>
 			<br /><br />
 			<?php if($mine){ ?>
 			<a class="linkedition" href="editionprofil.php">Editer mon profil</a>
