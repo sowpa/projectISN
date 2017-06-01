@@ -1,0 +1,12 @@
+
+.exemple{
+    background: linear-gradient(180deg,#ca665e, #874e70, #372d77);
+    margin-right: 20%;
+    margin-left: 20%;
+    box-shadow: 5px 5px 10px black; 
+    padding : 5px 5px 5px 5px;
+    margin-bottom: 20px;
+    color: #FAFAD2;
+
+}
+

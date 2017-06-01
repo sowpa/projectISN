@@ -4,6 +4,7 @@
 	<title>Projet ISN</title>
 	<meta charset="utf-8">
 	<?php include_once('includes/links.php'); ?>
+	<link rel="stylesheet" type="text/css" href="design/profil.css">
 </head>
 <body>
 	<div id = "main">
@@ -11,7 +12,7 @@
 		<div align="center">
 			<h1 class="titre">Profil de <?php echo $userinfo['pseudo']; ?></h1>
 			<br /><br />
-			<img src="membres/avatars/<?php echo $userinfo['avatar']; ?>" width=150>
+			<img src="membres/avatars/<?php echo $userinfo['avatar']; ?>" width=150 align="center">
 			<br /><br />
 			Pseudo : <?php echo $userinfo['pseudo']; ?>
 			<br /><br />
