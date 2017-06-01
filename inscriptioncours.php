@@ -18,19 +18,17 @@ if(isset($_GET['id'])){
 		if($cours['suivi'] != 0){
 			$message = "Désolé ! Quelqu'un d'autre est déja inscrit à ce cours.";
 		}
+		elseif ($cours['id_teacher'] == $_SESSION['id']) {
+			$message = "Vous ne pouvez pas vous inscrire à votre prope cours .";
+		}
 		else{
 			//Le cours est suivi
 			$query = $bdd->prepare('UPDATE `cours` SET `suivi`= ?, active = 0 WHERE id = ?');
 			$query->execute(array($_SESSION['id'], $_GET['id']));
 
-			//Transfert de crédit
-			//perte de crédit
+			//Payement de 1 crédit
 			$query = $bdd->prepare('UPDATE membres SET credit = credit - 1 WHERE id = ?');
 			$query->execute(array($_SESSION['id']));
-
-			//gain de crédit
-			$query = $bdd->prepare('UPDATE membres SET credit = credit + 1 WHERE id = ?');
-			$query->execute(array($cours['id_teacher']));
 
 
 
