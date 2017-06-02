@@ -1,7 +1,7 @@
 <link rel="stylesheet" type="text/css" href="design/header.css">
 
 
-<nav class="navbar navbar-fixed-left" id="my-navbar">
+<nav class="navbar " id="my-navbar">
 	<div class = "container">
 			<div class="collapse navbar-collapse" id="navbar-collapse">
 				<a href="index.php" class="navbar-left"><img src="ressources/logo.png"></a>
@@ -10,7 +10,7 @@
 					
 					<?php if($connect){ ?>
 					<!-- si l'utilisateur est connecté -->
-					<ul class="nav navbar-nav">
+					<ul class="nav navbar-nav navbar-right">
 						<li><a href="createcourse.php">créer un cours</a></li>
 						<li><a href="mescours.php">mes cours</a></li>
 						<li><a href="profil.php?id=<?php echo $_SESSION['id'];?>">mon profil</a></li>
@@ -20,8 +20,8 @@
 					<?php }	else{ ?>
 					<!-- si l'utilisateur n'est pas connecté -->
 
-						<ul class="nav navbar-nav">
-							<li><a href="connexion.php">se connecter</a>
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="connexion.php"">se connecter</a>
 							<li><a href="inscription.php">s'inscrire</a>
 						</ul>
 
