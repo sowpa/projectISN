@@ -5,11 +5,11 @@
    En poursuivant votre navigation sur ce site, vous acceptez l’utilisation de cookies.<br /><a href="includes/accept_cookie.php">OK</a>
 </div>
 <?php } ?>
-<div class="align-center">
+<div align="center">
 		<div class="container">
 			<div class="row">
 			  <!-- footer column 1 start -->
-				<div class="col-md-3 col-xs-3">
+				<div class="col-md-2 col-xs-2">
 				<!-- row start -->
 					<div class="row">
 						
@@ -26,11 +26,11 @@
 					<!-- row end -->
 				</div>
 				<!-- footer column 1 end -->
-				<div class="col-md-2 col-xs-1"> <!--<div class="col-md-1" style="width: 12.499999995%"></div>-->
+				<div class="col-md-1 col-xs-1"> <!--<div class="col-md-1" style="width: 12.499999995%"></div>-->
     		    	<img src="ressources/footer_gauche">
     		    </div>
     		    <!-- footer column 2 start -->
-    		    <div class="col-md-3 col-xs-3">
+    		    <div class="col-md-6 col-xs-6">
     		     <!-- row start -->
     		    	 <div class="row">
     		    	 	
@@ -52,7 +52,7 @@
         			<img src="ressources/footer_droit">
         		</div>
         <!-- footer column 3 start -->
-        		<div class="col-md-3 col-xs-3">
+        		<div class="col-md-2 col-xs-2">
         		 <!-- row start -->
         		 	<div class="row">
         		 		
@@ -67,3 +67,4 @@
 						
 					</div>
 				</div>
+</div>
