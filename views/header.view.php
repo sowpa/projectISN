@@ -11,18 +11,18 @@
 					<?php if($connect){ ?>
 					<!-- si l'utilisateur est connecté -->
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="createcourse.php">Créer un cours</a></li>
-						<li><a href="mescours.php">Mes cours</a></li>
-						<li><a href="profil.php?id=<?php echo $_SESSION['id'];?>">Mon profil</a></li>
-						<li><a href="deconnexion.php">Se déconnecter</a></li>
+						<li><a href="createcourse.php">créer un cours</a></li>
+						<li><a href="mescours.php">mes cours</a></li>
+						<li><a href="profil.php?id=<?php echo $_SESSION['id'];?>">mon profil</a></li>
+						<li><a href="deconnexion.php">se déconnecter</a></li>
 					</ul>
 
 					<?php }	else{ ?>
 					<!-- si l'utilisateur n'est pas connecté -->
 
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="connexion.php"">Se connecter</a>
-							<li><a href="inscription.php">S'inscrire</a>
+							<li><a href="connexion.php"">se connecter</a>
+							<li><a href="inscription.php">s'inscrire</a>
 						</ul>
 
 					<?php } ?>
