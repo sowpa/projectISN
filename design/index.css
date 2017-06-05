@@ -9,34 +9,7 @@ body {
     margin-top: -21px;
 }
 
-.boutonun {
-    font-family: 'Roboto-Light';
-    color: white;
-    background: linear-gradient(180deg,#47449c, #2c2c2c);
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px grey;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 30px;
-    
-}
 
-
-
-.boutondeux {
-    font-family: 'Roboto-Light';
-    color: white;
-    background: linear-gradient(180deg,#47449c, #2c2c2c);
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px grey;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 30px;
-    font-weight: 50%;
-    
-    
 }
 
 .tag-title{

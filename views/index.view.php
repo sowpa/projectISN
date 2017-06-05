@@ -34,10 +34,11 @@
           
       <?php } ?>
       </div>
+    </div>
       
   <div class="row">
-    <div class ="centered">
-      <div class="col-sm-11 col-xs-11">
+    <div align="center">
+      <div class="col-sm-12 col-xs-12">
           <div class="boutonun btn-fixed">
             <a href="allcourses.php">Trouver un cours</a></div>
       
