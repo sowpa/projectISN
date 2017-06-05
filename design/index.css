@@ -6,18 +6,13 @@ body {
     color: white;
     background: linear-gradient(180deg,#47449c, #2c2c2c);
     border-radius: 10px;
-    padding: 15px 32px;
+    
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 30px;
-    margin-right: 100px;
-    margin-left: 31%;
-    margin-top: 400px;
-   
-
+    
 }
-
 
 
 
@@ -26,73 +21,58 @@ body {
     color: white;
     background: linear-gradient(180deg,#47449c, #2c2c2c);
     border-radius: 10px;
-    padding: 15px 32px;
+    
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 30px;
     font-weight: 50%;
-    margin-left: 100px;
+    
+    
 }
-
-}
-
-
-}
-
-
-
-/* Boxes
------------------------------------------------- */
-
-/* List style */
-
-
-.caption-box h4 {
-    font-size: 0.94rem;
-    color: #444;
-    }
-    .caption-box p {
-        font-size: 0.75rem;
-        color: #999;
-        }
-        .btn.btn-mini {
-            font-size: 0.63rem;
-            }
 
 .btn{
     background: linear-gradient(180deg,#47449c, #2c2c2c);
 }
 
-/* Control box 
------------------------------------------------- */
-.control-box {
+hr{
+    background-color: #45429b;
     width: 100%;
-    }
-    .carousel-control{
-        background: #666 !important;
-        border: 0px;
-        border-radius: 0px;
-        display: inline-block;
-        font-size: 34px;
-        font-weight: 200;
-        line-height: 18px;
-        opacity: 0.5;
-        padding: 4px 10px;
-        margin: 30px -20px 0;
-        height: 30px;
-        width: 30px;
-        }
-
-
-
-/* Mobile only
------------------------------------------------- */
- 
-}
-@media (max-width: 479px) {
-    .caption-box { word-break: break-all; }
-    ul.thumbnails li { margin-bottom: 30px; }
+    height: 5px;
 }
 
+.box {
+  background:#2c2c2c;
+  transition:all 0.2s ease;
+  border:2px dashed #dadada;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border-radius: 25px;
+  background-clip: padding-box;
+  padding:0 20px 20px 20px;
+  min-height:340px;
+  max-height: 340px;
+}
 
+.box:hover {
+  border:2px solid #525C7A;
+}
+
+.box span.box-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+   
+}
+
+.box .box-content {
+  padding: 16px;
+  border-radius: 0 0 2px 2px;
+  background-clip: padding-box;
+  box-sizing: border-box;
+}
+.box .box-content p {
+  color:#fff;
+  text-transform:none;
+}

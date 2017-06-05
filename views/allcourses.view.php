@@ -59,6 +59,7 @@
 				<a href="allcourses.php?q=<?= $q ?>&page=<?= $nbPages ?>">Derniere page</a>
 			<?php } ?>
 		</div>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 		<footer><?php include_once("includes/footer.php"); ?></footer>
 	</div>
 </body>

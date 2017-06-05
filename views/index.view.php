@@ -9,148 +9,84 @@
 
 </head>
 <body>
-  <div id = "main">
+<div id = "main">
     <header><?php include_once('includes/header.php'); ?></header>
     <div align="center">
       <h1 class="titre">Les derniers cours</h1>   
     </div>
-<br><br><br>
 
-<div class="container">
-<div class="row">
-<div class="col-sm-12">
-
-   
-
-  <div id="myCarousel" class="row carousel slide" data-ride="carousel">
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-   
-      <div class="item active">
-        
-        <ul>
-
-        <div align="center">
-          <li class="col-sm-3">      
-            <div class="caption-box">
-             <?php while($c = $cours->fetch()) { ?>
-     			<div class="cours-display">
-       			<a href="cours.php?id=<?= $c['c_id']?>" >
-          		<h6><?= $c['titre'] ?> - <?= $c['pseudo']?></h6>
-          		<div><?= $c['description'] ?></div>
-        		</a>
-     		</div>  
-    		<?php } ?>
-              <a class="btn btn-primary btn-large" href="cours.php?id=<?= $c['c_id']?>">Voir cours</a>
-            </div>
-          </li>
-
-          <li class="col-sm-3">      
-            <div class="caption-box">
-             <?php while($c = $cours->fetch()) { ?>
-     			<div class="cours-display">
-       			<a href="cours.php?id=<?= $c['c_id']?>" >
-          		<h6><?= $c['titre'] ?> - <?= $c['pseudo']?></h6>
-          		<div><?= $c['description'] ?></div>
-        		</a>
-     		</div>  
-    		<?php } ?>
-              <a class="btn btn-success btn-large" href="cours.php?id=<?= $c['c_id']?>">Voir cours</a>
-            </div>
-          </li>
-
-         <li class="col-sm-3">      
-            <div class="caption-box">
-             <?php while($c = $cours->fetch()) { ?>
-     			<div class="cours-display">
-       			<a href="cours.php?id=<?= $c['c_id']?>" >
-          		<h6><?= $c['titre'] ?> - <?= $c['pseudo']?></h6>
-          		<div><?= $c['description'] ?></div>
-        		</a>
-     		</div>  
-    		<?php } ?>
-              <a class="btn btn-success btn-large" href="cours.php?id=<?= $c['c_id']?>">Voir cours</a>
-            </div>
-          </li>
-
-          <li class="col-sm-3">      
-            <div class="caption-box">
-             <?php while($c = $cours->fetch()) { ?>
-     			<div class="cours-display">
-       			<a href="cours.php?id=<?= $c['c_id']?>" >
-          		<h6><?= $c['titre'] ?> - <?= $c['pseudo']?></h6>
-          		<div><?= $c['description'] ?></div>
-        		</a>
-     		</div>  
-    		<?php } ?>
-              <a class="btn btn-success btn-large" href="cours.php?id=<?= $c['c_id']?>">Voir cours</a>
-            </div>
-          </li>
-        </ul>
-      </div><!-- /Slide1 --> 
-
-
-      <div class="item">
-        <li class="col-sm-3">      
-            <div class="caption-box">
-             <?php while($c = $cours->fetch()) { ?>
-     			<div class="cours-display">
-       			<a href="cours.php?id=<?= $c['c_id']?>" >
-          		<h6><?= $c['titre'] ?> - <?= $c['pseudo']?></h6>
-          		<div><?= $c['description'] ?></div>
-        		</a>
-     		</div>  
-    		<?php } ?>
-              <a class="btn btn-success btn-large" href="cours.php?id=<?= $c['c_id']?>">Voir cours</a>
-            </div>
-          </li>
-
-     
-      </div><!-- /Slide2 --> 
-
-
-     
+    <div class="container">
+      <div class="row">
+                    <div class="col-md-6 col-sm-6 text-center">
+                        <div class="box">
+                            <div class="box-content">
+                                <
+                                <a href="cours.php?id=<?= $c['c_id']?>" class="btn btn-block ">Voir ce cours</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 text-center">
+                        <div class="box">
+                            <div class="box-content">
+                                <h1 class="tag-title">Nom du cours</h1>
+                                <hr>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pharetra quam sollicitudin nibh aliquam finibus. Etiam efficitur felis vel imperdiet varius. Maecenas bibendum elementum molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris cursus finibus semper. Fusce molestie tincidunt leo vel varius. Nam scelerisque nulla feugiat leo consequat, id dignissim sem tincidunt. Proin elit mauris, hendrerit in varius sed, facilisis sit amet neque.</p>
+                                <br />
+                                <a href="#" class="btn btn-block ">Voir ce cours</a>
+                            </div>
+                        </div>
+                    </div>
+                              
+      </div>
+      <div class="row">
+                    <div class="col-md-6 col-sm-6 text-center">
+                        <div class="box">
+                            <div class="box-content">
+                                <h1 class="tag-title">Nom du cours</h1>
+                                <hr>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pharetra quam sollicitudin nibh aliquam finibus. Etiam efficitur felis vel imperdiet varius. Maecenas bibendum elementum molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris cursus finibus semper. Fusce molestie tincidunt leo vel varius. Nam scelerisque nulla feugiat leo consequat, id dignissim sem tincidunt. Proin elit mauris, hendrerit in varius sed, facilisis sit amet neque.</p>
+                                <br />
+                                <a href="#" class="btn btn-block">Voir ce cours</a>
+                            </div>
+                        </div>
+                      </div>
+                        <div class="col-md-6 col-sm-6 text-center">
+                        <div class="box">
+                            <div class="box-content">
+                                <h1 class="tag-title">Nom du cours</h1>
+                                <hr>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pharetra quam sollicitudin nibh aliquam finibus. Etiam efficitur felis vel imperdiet varius. Maecenas bibendum elementum molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris cursus finibus semper. Fusce molestie tincidunt leo vel varius. Nam scelerisque nulla feugiat leo consequat, id dignissim sem tincidunt. Proin elit mauris, hendrerit in varius sed, facilisis sit amet neque.</p>
+                                <br />
+                                <a href="#" class="btn btn-block">Voir ce cours</a>
+                            </div>
+                        </div>
+                      </div>
+      </div>
+    </div>
 
 
 
-    </div><!-- /Wrapper for slides .carousel-inner -->
-
-
-
-    <!-- Control box -->
-    <div class="control-box">                            
-      <a data-slide="prev" href="#myCarousel" class="carousel-control left">‹</a>
-      <a data-slide="next" href="#myCarousel" class="carousel-control right">›</a>
-    </div><!-- /.control-box -->   
-
-
-
-  </div><!-- /#myCarousel -->
-
-
-</div><!-- /.col-sm-12 -->          
-</div><!-- /.row --> 
-</div><!-- /.container -->
 
         
-
 
   <div class="row">
-    <div class="col-sm-11 col-xs-11">
-        <div class="boutonun btn-fixed">
-          <a href="allcourses.php">Trouver un cours</a></div>
-    
-        <div class="boutondeux">
-          <a href="createcourse.php">Créer un cours</a></div>
+    <div class ="centered">
+      <div class="col-sm-11 col-xs-11">
+          <div class="boutonun btn-fixed">
+            <a href="allcourses.php">Trouver un cours</a></div>
+      
+          <div class="boutondeux">
+            <a href="createcourse.php">Créer un cours</a></div>
+      </div>
     </div>
   </div>
+
 
                
     <br><br><br><br>
 
 </div>
-</div>
+
 <footer><?php include_once("includes/footer.php"); ?></footer>
 
 
