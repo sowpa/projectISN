@@ -87,7 +87,17 @@ a:hover{
 
 }
 
+.separateurhaut{
+    background: linear-gradient(90deg, #2e2d76, #784872, #f37650);
+    height: 10px; 
+    margin-top: -21px;
+  }
 
+.separateurbas{
+    background: linear-gradient(90deg, #2e2d76, #784872, #f37650);
+    height: 10px; 
+   margin-bottom: 0px;
+}
 
 .boutonun {
     font-family: 'Roboto-Light';
@@ -100,8 +110,8 @@ a:hover{
     display: inline-block;
     font-size: 30px;
     margin-right: 100px;
-    margin-left: 31%;
-    margin-top: 400px;
+    
+    margin-top: 150px;
 }
 
 
@@ -120,6 +130,7 @@ a:hover{
     font-weight: 50%;
     margin-left: 100px;
 }
+
 
 .box {
 	background: linear-gradient(90deg,#47449c, #2c2c2c) 

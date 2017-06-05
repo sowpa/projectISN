@@ -21,7 +21,10 @@
                     <div class="col-md-6 col-sm-6 text-center">
                         <div class="box">
                             <div class="box-content">
-                                <
+                             <!--   <a href="cours.php?id=<?= $c['c_id']?>" >
+              <h6><?= $c['titre'] ?> - <?= $c['pseudo']?></h6>
+              <div><?= $c['description'] ?></div>
+            </a>-->
                                 <a href="cours.php?id=<?= $c['c_id']?>" class="btn btn-block ">Voir ce cours</a>
                             </div>
                         </div>
@@ -63,30 +66,37 @@
                         </div>
                       </div>
       </div>
-    </div>
 
-
-
-
-        
-
-  <div class="row">
-    <div class ="centered">
-      <div class="col-sm-11 col-xs-11">
-          <div class="boutonun btn-fixed">
-            <a href="allcourses.php">Trouver un cours</a></div>
       
-          <div class="boutondeux">
-            <a href="createcourse.php">Créer un cours</a></div>
-      </div>
+
     </div>
-  </div>
+    <div class="container">
+      <div class="row">
+          <div align="center">
+          
+            <div class="col-sm-12 col-xs-12 text-center">
+                <div class="boutonun">
+                  <a href="allcourses.php">Trouver un cours</a></div>
+          
+            
+                <div class="boutondeux">
+                  <a href="createcourse.php">Créer un cours</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+</div>
+        
+      
+        
+ 
 
 
                
     <br><br><br><br>
 
-</div>
+
 
 <footer><?php include_once("includes/footer.php"); ?></footer>
 
