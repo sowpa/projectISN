@@ -18,58 +18,23 @@
 
     <div class="container">
       <div class="row">
-                    <div class="col-md-6 col-sm-6 text-center">
-                        <div class="box">
-                            <div class="box-content">
-                                <
-                                <a href="cours.php?id=<?= $c['c_id']?>" class="btn btn-block ">Voir ce cours</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6 text-center">
-                        <div class="box">
-                            <div class="box-content">
-                                <h1 class="tag-title">Nom du cours</h1>
-                                <hr>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pharetra quam sollicitudin nibh aliquam finibus. Etiam efficitur felis vel imperdiet varius. Maecenas bibendum elementum molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris cursus finibus semper. Fusce molestie tincidunt leo vel varius. Nam scelerisque nulla feugiat leo consequat, id dignissim sem tincidunt. Proin elit mauris, hendrerit in varius sed, facilisis sit amet neque.</p>
-                                <br />
-                                <a href="#" class="btn btn-block ">Voir ce cours</a>
-                            </div>
-                        </div>
-                    </div>
-                              
+                   
+      <?php while($c = $cours->fetch()) { ?>
+        <div class="col-md-6 col-sm-6 text-center">
+            <div class="box">
+                <div class="box-content">
+                    <h1 class="tag-title"><?= $c['titre'] ?> - <?= $c['pseudo']?></h1>
+                    <hr>
+                    <p><?= $c['description'] ?></p>
+                    <br />
+                    <a href="cours.php?id=<?= $c['c_id']?>" class="btn btn-block ">Voir ce cours</a>
+                </div>
+            </div>
+        </div>
+          
+      <?php } ?>
       </div>
-      <div class="row">
-                    <div class="col-md-6 col-sm-6 text-center">
-                        <div class="box">
-                            <div class="box-content">
-                                <h1 class="tag-title">Nom du cours</h1>
-                                <hr>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pharetra quam sollicitudin nibh aliquam finibus. Etiam efficitur felis vel imperdiet varius. Maecenas bibendum elementum molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris cursus finibus semper. Fusce molestie tincidunt leo vel varius. Nam scelerisque nulla feugiat leo consequat, id dignissim sem tincidunt. Proin elit mauris, hendrerit in varius sed, facilisis sit amet neque.</p>
-                                <br />
-                                <a href="#" class="btn btn-block">Voir ce cours</a>
-                            </div>
-                        </div>
-                      </div>
-                        <div class="col-md-6 col-sm-6 text-center">
-                        <div class="box">
-                            <div class="box-content">
-                                <h1 class="tag-title">Nom du cours</h1>
-                                <hr>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pharetra quam sollicitudin nibh aliquam finibus. Etiam efficitur felis vel imperdiet varius. Maecenas bibendum elementum molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris cursus finibus semper. Fusce molestie tincidunt leo vel varius. Nam scelerisque nulla feugiat leo consequat, id dignissim sem tincidunt. Proin elit mauris, hendrerit in varius sed, facilisis sit amet neque.</p>
-                                <br />
-                                <a href="#" class="btn btn-block">Voir ce cours</a>
-                            </div>
-                        </div>
-                      </div>
-      </div>
-    </div>
-
-
-
-
-        
-
+      
   <div class="row">
     <div class ="centered">
       <div class="col-sm-11 col-xs-11">
@@ -81,8 +46,7 @@
       </div>
     </div>
   </div>
-
-
+</div>
                
     <br><br><br><br>
 

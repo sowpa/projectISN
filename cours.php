@@ -9,7 +9,7 @@ include_once('includes/config.php');
 include_once('includes/cookieconnect.php');
 include_once('includes/fonctions.php');
 
-if(isset($_GET['id'])){
+if(isset($_GET['id']) AND $_GET['id'] != null){
 	$id = (int) $_GET['id'];
 
 	$query = $bdd->prepare('SELECT * FROM cours WHERE id = ?');
