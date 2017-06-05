@@ -45,6 +45,14 @@
     box-shadow: 3px 3px 8px black;
 }
 
-
+body {
+    background-color: #e9e8e8;
+}
 
 /* FIN ESPACE INSCRIPTION */
+
+.separateurhaut{
+    background: linear-gradient(90deg, #2e2d76, #784872, #f37650);
+    height: 10px; 
+    margin-top: -21px;
+  }

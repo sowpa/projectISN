@@ -11,3 +11,9 @@ footer{
 img {
 	margin-right: 100px;
 }
+
+.separateurbas{
+    background: linear-gradient(90deg, #2e2d76, #784872, #f37650);
+    height: 10px; 
+   margin-bottom: 0px;
+}

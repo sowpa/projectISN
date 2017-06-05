@@ -5,6 +5,7 @@
    En poursuivant votre navigation sur ce site, vous acceptez l’utilisation de cookies.<br /><a href="includes/accept_cookie.php">OK</a>
 </div>
 <?php } ?>
+<hr class="separateurbas">
 <div align="center">
 		<div class="container">
 			<div class="row">

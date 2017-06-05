@@ -44,3 +44,12 @@
     color: white;
     font-size : 15px;
 }
+
+body {
+    background-color: #e9e8e8;
+}
+.separateurhaut{
+    background: linear-gradient(90deg, #2e2d76, #784872, #f37650);
+    height: 10px; 
+    margin-top: -21px;
+  }
