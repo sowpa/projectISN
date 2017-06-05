@@ -18,7 +18,7 @@
 
     <div class="container">
       <div class="row">
-                    <div class="col-md-6 col-sm-6 text-center">
+                    <div class="col-lg-6  text-center">
                         <div class="box">
                             <div class="box-content">
                              <!--   <a href="cours.php?id=<?= $c['c_id']?>" >
@@ -29,7 +29,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-sm-6 text-center">
+                    <div class="col-lg-6  text-center">
                         <div class="box">
                             <div class="box-content">
                                 <h1 class="tag-title">Nom du cours</h1>
@@ -43,7 +43,7 @@
                               
       </div>
       <div class="row">
-                    <div class="col-md-6 col-sm-6 text-center">
+                    <div class="col-lg-6 text-center">
                         <div class="box">
                             <div class="box-content">
                                 <h1 class="tag-title">Nom du cours</h1>
@@ -54,7 +54,7 @@
                             </div>
                         </div>
                       </div>
-                        <div class="col-md-6 col-sm-6 text-center">
+                        <div class="col-lg-6 text-center">
                         <div class="box">
                             <div class="box-content">
                                 <h1 class="tag-title">Nom du cours</h1>
@@ -94,7 +94,7 @@
 
 
                
-    <br><br><br><br>
+    <br><br><br>
 
 
 
