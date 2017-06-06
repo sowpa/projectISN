@@ -33,8 +33,8 @@
 			</div>
 
 			<div class="interv2">
-			<p align="right" class="citation2"> "Citation du directeur"</p>
-			<p align="left" class="photo2"> Nom du directeur </p>
+			<p align="right" class="citation2">"Te dicat mucius efficiendi pri, at nibh primis legimus vix, vix ea ipsum dicant. No est natum everti tritani."</p>
+			<p align="left" class="photo2">Amazonum flumen</p>
 			</div>
 		</div>
 	<footer><?php include_once("includes/footer.php"); ?></footer>

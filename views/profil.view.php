@@ -10,17 +10,17 @@
 	<div id = "main">
 		<header><?php include_once('includes/header.php'); ?></header>
 		<div align="center">
-			<h1 class="titre">Profil de <?php echo $userinfo['pseudo']; ?></h1>
+			<h1 class="titre">Profil de <?= $userinfo['pseudo'] ?></h1>
 			<br /><br />
 			<div class="profil">
-			<img src="membres/avatars/<?php echo $userinfo['avatar']; ?>" class="pdp">
+			<img src="membres/avatars/<?= $userinfo['avatar'] ?>" class="pdp">
 			<br/><br/>
 			<div class="infos">
-			<p> Pseudo : <?php echo $userinfo['pseudo']; ?> </p>
+			<p> Pseudo : <?= $userinfo['pseudo'] ?> </p>
 			<br/>
-			<p> Mail : 	<?php echo $userinfo['mail']; ?> </p>
+			<p> Mail : 	<?= $userinfo['mail'] ?> </p>
 			<br/>
-			<p> Crédit(s) : 	<?php echo $userinfo['credit']; ?> </p>
+			<p> Crédit(s) : 	<?= $userinfo['credit'] ?> </p>
 			</div>
 			<br /><br />
 			<?php if($mine){ ?>
